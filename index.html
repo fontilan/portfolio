@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
     <script src="scripts/scripts.js"></script>
     <script src="https://kit.fontawesome.com/848bf7abdc.js" crossorigin="anonymous"></script>
     <title>Wojciech Gmuzdek</title>
@@ -47,21 +47,48 @@
     <article class="box" id="projects">
       <h2 class="centered">My projects</h2>
       <div class="clearfix">
-        <a href="https://fontilan.github.io" target="_blank"><img class="image" src="images/kafkacovers.jpg" width="500" height="800"></a>
-        <p>I'm still early on my way towards being the best developer in the world,
-          but I'm quite happy with this particular project. The challenge here was one familiar to every beginner
-           web developer - to design a website that is responsive, so that it changes its layout depending on the size of the screen that it's viewed on.</p>
-        <p>Or in other words - it's supposed to look good on a small screen of a mobile device.</p>
-        <p>For the content I chose to include interesting book covers of my favourite writer - Franz Kafka
-           - and create a gallery with short descriptions of his works and a short bio.</p>
-        <p>Since at the time of making it I wasn't thinking of sharing it with the world (except my friends), it is in Polish.
-          I might update it some day (I still want to add a responsive mobile navigation bar) and
-          maybe translate the descriptions into English.</p>
+        <a href="https://fontilan.github.io" target="_blank"><img class="image imageleft" src="images/kafkajak.jpg" width="500" height="500"></a>
+        <h3 class="centered">Kafka jak z obrazka</h3>
+        <p>My very first website was one dedicated to my cat, but it was bad in all sorts of ways. This is the second website I made.</p>
+        <p>I wanted to start simple by creating a picture gallery of interesting book covers of my favourite writer - Franz Kafka. Then I added some
+          descriptions of his works and a short bio. I also spent a lot of time trying to get <code>display:grid</code> to work properly, but in the
+          end I think it looks decent.</p>
+        <p>Challenges here: everything. No, seriously, after only a few weeks of learning almost everything was a challenge for me at this point,
+          especially CSS and grid display in particular.</p>
+        <p>Utilizes: HTML, CSS.</p>
+        <div class="buttons-group">
+          <a class="button" href="https://github.com/fontilan" target="_blank">
+            <i class="fab fa-firefox fa-2x fa-fw"></i>View page
+          </a>
+          <a class="button" href="https://github.com/fontilan/fontilan.github.io" target="_blank">
+            <i class="fab fa-github fa-2x fa-fw"></i>View source (GitHub)
+          </a>
+        </div>
+      </div>
+      <br>
+      <div class="clearfix nextproject">
+        <a href="https://fontilan.github.io/lifeescaper" target="_blank"><img class="image imageright" src="images/lifeescaper.jpg" width="500" height="500"></a>
+        <h3 class="centered">Life Escaper</h3>
+        <p>This website was created for a FreeCodeCamp Responsive Web Design Project - Build a Product Landing Page.</p>
+        <p>You can read the requirements/user stories
+          <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page" target="_blank">here</a>
+          in the project description.</p>
+        <p>Challenges here: responsive design, responsive navigation bar, using images, using the right colors, copywriting.</p>
+        <p>Utilizes: HTML, CSS, JavaScript.</p>
+      </div>
+      <div class="buttons-group">
+        <a class="button" href="https://fontilan.github.io/lifeescaper" target="_blank">
+          <i class="fab fa-firefox fa-2x fa-fw"></i>View page
+        </a>
+        <a class="button" href="https://github.com/fontilan/lifeescaper" target="_blank">
+          <i class="fab fa-github fa-2x fa-fw"></i>View source (GitHub)
+        </a>
       </div>
     </article>
     <hr>
     <article class="box" id="contact">
-      <h2 class="centered">Links to my sites</h2>
+
+      <!-- <h2 class="centered">Links to my sites</h2>
       <section class="links">
         <i class="fab fa-github fa-2x fa-fw"></i>
         <a href="https://github.com/fontilan" target="_blank">GitHub</a>
@@ -84,7 +111,36 @@
       <section class="links">
         <i class="fas fa-envelope fa-2x fa-fw"></i>
         <a href="mailto:sernik90@gmail.com">Send me an email</a>
+      </section> -->
+
+      <h2 class="centered">Links to my sites</h2>
+      <section class="buttons-group three-columns">
+        <a class="button" href="https://github.com/fontilan" target="_blank">
+          <i class="fab fa-github fa-2x fa-fw"></i>GitHub
+        </a>
+        <a class="button" href="https://www.freecodecamp.org/fontilan" target="_blank">
+          <i class="fab fa-free-code-camp fa-2x fa-fw"></i>FreeCodeCamp
+        </a>
+        <a class="button" href="https://codepen.io/fontilan" target="_blank">
+          <i class="fab fa-codepen fa-2x fa-fw"></i>CodePen
+        </a>
       </section>
+      <h3 class="centered">Other personal profiles</h3>
+      <section class="buttons-group two-columns">
+        <a class="button" href="https://www.goodreads.com/user/show/27280059-sernicze" target="_blank">
+          <i class="fab fa-goodreads fa-2x fa-fw"></i>Goodreads
+        </a>
+        <a class="button" href="https://www.last.fm/user/sernicze" target="_blank">
+          <i class="fab fa-lastfm-square fa-2x fa-fw"></i>last.fm
+        </a>
+      </section>
+      <h3 class="centered">Contact</h3>
+      <section class="buttons-group one-column pink">
+        <a class="button" href="mailto:sernik90@gmail.com">
+          <i class="fas fa-envelope fa-2x fa-fw"></i>Send me an email
+        </a>
+      </section>
+
     </article>
     <footer class="centered">
       <p><i class="far fa-copyright fa-xs"></i> Wojciech Gmuzdek 2020</p>
