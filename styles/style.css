@@ -17,7 +17,7 @@ body {
 
 .navigation {
   overflow: hidden;
-  background-color: #0D1B2A;
+  background-color: #0d1b2a;
   text-align: right;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .navigation a:hover {
-  background-color: #778DA9;
+  background-color: #778da9;
   color: #fff;
 }
 
@@ -40,7 +40,9 @@ body {
 }
 
 @media screen and (max-width: 560px) {
-  .navigation a:not(:first-child) {display: none;}
+  .navigation a:not(:first-child) {
+    display: none;
+  }
   .navigation a.icon {
     float: right;
     display: block;
@@ -52,12 +54,14 @@ body {
 }
 
 @media screen and (max-width: 560px) {
-  .navigation.responsive {position: relative;}
+  .navigation.responsive {
+    position: relative;
+  }
   .navigation.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
-    background-color: #0D1B2A;
+    background-color: #0d1b2a;
   }
   .navigation.responsive a {
     float: none;
@@ -81,19 +85,19 @@ body {
 }
 
 h1 {
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
   margin-top: 2rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 4rem;
-  padding: .25rem;
+  padding: 0.25rem;
 }
 
-header p{
+header p {
   font-size: 2rem;
 }
 
 h2 {
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
   margin-top: 1rem;
   margin-bottom: 3rem;
   font-size: 3rem;
@@ -101,9 +105,9 @@ h2 {
 }
 
 h3 {
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
   margin-top: 1rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 2rem;
   font-weight: 400;
 }
@@ -114,20 +118,20 @@ h3 {
   max-height: 200px;
   border-radius: 50%;
   margin: auto;
-  border: 10px #E0E1DD solid;
+  border: 10px #e0e1dd solid;
 }
 
 header {
   padding-top: 5rem;
   padding-bottom: 3rem;
-  background-color: #1B263B; /* #EFF1F3; */
+  background-color: #1b263b; /* #EFF1F3; */
   border-radius: 0 0 25px 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 p {
   margin-top: 1rem;
-  padding: .25rem;
+  padding: 0.25rem;
 }
 
 li {
@@ -141,7 +145,7 @@ li {
   background-color: #fff;
   max-width: 720px;
   margin: 0 auto;
-  padding: .5rem;
+  padding: 0.5rem;
   border-radius: 5px;
 }
 
@@ -149,22 +153,23 @@ li {
   padding-top: 3rem;
 }
 
-.links i,a {
-  margin: .5rem 0;
+.links i,
+a {
+  margin: 0.5rem 0;
 }
 
 .box a:link {
-  color: #778DA9;
+  color: #778da9;
 }
 
 .box a:visited {
-  color: #1B263B;
+  color: #1b263b;
 }
 
 i {
-  padding-right: .25rem;
+  padding-right: 0.25rem;
   vertical-align: middle;
-  color: #E5A4CB; /* #778DA9; */
+  color: #e5a4cb; /* #778DA9; */
 }
 
 .image {
@@ -206,23 +211,25 @@ i {
 
 .button {
   display: inline-block;
-  background-color: #778DA9;
+  background-color: #778da9;
   text-align: center;
   border-radius: 3px;
-  box-shadow: 0 1px 1px -1px rgba(0,0,0,.15), 0 1px 2px 0 rgba(0,0,0,.1), 0 1px 4px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.15), 0 1px 2px 0 rgba(0, 0, 0, 0.1),
+    0 1px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
-.three-columns, .two-columns {
+.three-columns,
+.two-columns {
   margin-bottom: 4rem;
 }
 
 .pink .button {
-  background-color: #E5A4CB;
+  background-color: #e5a4cb;
   font-size: 1.375rem;
 }
 
 .pink .button:hover {
-  background-color: #CC7DB0;
+  background-color: #cc7db0;
 }
 
 .buttons-group a {
@@ -248,21 +255,21 @@ i {
 
 footer {
   margin-top: 3rem;
-  background-color: #E0E1DD;
+  background-color: #e0e1dd;
   border-radius: 10px 10px 0 0;
 }
 
 footer p {
   font-size: 1rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 hr {
   width: 300px;
   margin: 3rem auto 2rem;
   border: 0;
-  border-top: 1px solid #E0E1DD;
+  border-top: 1px solid #e0e1dd;
 }
 
 @media (min-width: 500px) {
