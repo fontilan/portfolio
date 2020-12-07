@@ -35,6 +35,10 @@ body {
   color: #c6ebbe;
 }
 
+.white {
+  color: #fff;
+}
+
 /* NAVIGATION */
 
 .navigation {
@@ -192,8 +196,8 @@ li {
 
 i {
   vertical-align: middle;
-  margin-left: 5px;
-  margin-right: 5px;
+  /* margin-left: 5px;
+  margin-right: 5px; */
   color: #cecfc9; /*#778DA9; */
   transition: color 0.5s;
   /* text-shadow: 1px 1px 10px #000; */
@@ -202,10 +206,6 @@ i {
 .expand:hover {
   color: #fff;
   transform: scale(1.2);
-}
-
-.box i {
-  padding-right: 0.25rem;
 }
 
 .image {
@@ -240,7 +240,7 @@ i {
 .submit-button {
   color: #fff;
   display: block;
-  max-width: 100px;
+  /* max-width: 100px; */
   margin: 0 auto;
   cursor: pointer;
   background-color: #ef5d60;
