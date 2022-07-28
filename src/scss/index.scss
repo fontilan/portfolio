@@ -1,64 +1,14 @@
-/*
-  Josh's Custom CSS Reset
-  https://www.joshwcomeau.com/css/custom-css-reset/
-*/
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-}
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
-
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
-
-#root,
-#__next {
-  isolation: isolate;
-}
+@use './reset.scss';
+@use './colors.scss' as *;
+@use './fonts.scss' as *;
 
 /********************
   TYPOGRAPHY & COLORS
 ********************/
+
 body {
-  color: #42425a;
-  font-family: "IBM Plex Sans", sans-serif;
+  color: $color-mono2;
+  font-family: $font-sans;
   font-size: 16px;
 }
 
@@ -68,8 +18,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: #20123a;
-  font-family: "IBM Plex Serif", serif;
+  color: $color-mono1;
+  font-family: $font-serif;
   font-weight: 700;
   line-height: 1;
 }
@@ -101,6 +51,7 @@ h3 {
 /********************
   MAIN BODY
 ********************/
+
 body {
   display: flex;
   justify-content: center;
@@ -115,12 +66,13 @@ body {
 
 .section-number {
   font-size: 2rem;
-  color: #2bc4a2;
+  color: $color-green3;
 }
 
 /********************
   HERO
  *******************/
+
 .hero {
   text-align: center;
 }
@@ -136,5 +88,3 @@ body {
 .hero-line4 {
   margin-left: 2ch;
 }
-
-/*# sourceMappingURL=index.css.map */
