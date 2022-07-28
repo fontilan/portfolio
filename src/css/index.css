@@ -1,0 +1,143 @@
+/********************
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*******************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/********************
+  VARIABLES
+********************/
+/********************
+  TYPOGRAPHY & COLORS
+********************/
+body {
+  color: #42425a;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #20123a;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  line-height: 1;
+}
+
+p {
+  font-weight: 400;
+  margin-top: 1em;
+}
+
+h1 {
+  font-size: 6rem;
+  letter-spacing: -0.3rem;
+}
+
+h2 {
+  font-size: 5rem;
+  font-style: italic;
+  letter-spacing: -0.1rem;
+  line-height: 1;
+  margin-top: 0.25em;
+}
+
+h3 {
+  font-size: 3rem;
+  letter-spacing: -0.05rem;
+  margin-top: 1em;
+}
+
+/********************
+  MAIN BODY
+********************/
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  max-width: 50em;
+  padding: 1em;
+}
+
+.section-number {
+  font-size: 2rem;
+  color: #2bc4a2;
+}
+
+/********************
+  HERO
+ *******************/
+.hero {
+  text-align: center;
+}
+
+.hero-line1 {
+  margin-left: -3ch;
+}
+
+.hero-line2 {
+  margin-left: -1ch;
+}
+
+.hero-line4 {
+  margin-left: 2ch;
+}
+
+/*# sourceMappingURL=index.css.map */
