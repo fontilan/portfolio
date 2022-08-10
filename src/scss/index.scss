@@ -38,7 +38,7 @@ h2 {
 h3 {
   font-size: 2.5rem;
   letter-spacing: -0.05rem;
-  margin-top: 2em;
+  // margin-top: 2em;
 }
 
 h4 {
@@ -72,8 +72,26 @@ body {
 .app {
   display: flex;
   flex-direction: column;
-  max-width: 50em;
+  max-width: 60em;
   padding: 1em;
+}
+
+hr {
+  margin: 3em 0;
+}
+
+// === CARDS
+
+.card {
+  display: flex;
+
+  &--items {
+    margin-left: 3em;
+  }
+
+  hr {
+    margin: 2em 0;
+  }
 }
 
 .headline-with-year {
@@ -90,6 +108,10 @@ body {
     color: $color-mono-0;
     padding: 0.25em 0.5em;
   }
+}
+
+.description {
+  margin-top: 1em;
 }
 
 // === HERO ===
