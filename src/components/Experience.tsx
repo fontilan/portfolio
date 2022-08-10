@@ -1,44 +1,55 @@
 const Experience = () => {
   return (
-    <div className="experience">
-      <h3>Experience</h3>
-      <div className="headline-with-year">
-        <div className="headline-with-year--year">2020 - now</div>
-        <div className="headline-with-year--headlines">
-          <h4>Management Board Assistant</h4>
-          <h5>Summa Linguae Technologies</h5>
+    <>
+      <div className="card">
+        <div className="card--title">
+          <h3>Experience</h3>
+        </div>
+        <div className="card--items">
+          <div className="card--item">
+            <div className="headline-with-year">
+              <div className="headline-with-year--year">2020 – now</div>
+              <div className="headline-with-year--headlines">
+                <h4>Management Board Assistant</h4>
+                <h5>Summa Linguae Technologies</h5>
+              </div>
+            </div>
+            <ul className="description">
+              <li>Supporting the CEO & COO in their daily duties</li>
+              <li>Creating reports and presentations</li>
+              <li>Preparing documents for accounting purposes</li>
+              <li>Issuing invoices to individual clients</li>
+              <li>Supporting the customer service department</li>
+              <li>
+                Organizing and taking care of the proper functioning of the
+                office
+              </li>
+            </ul>
+          </div>
+          <hr />
+          <div className="card--item">
+            <div className="headline-with-year">
+              <div className="headline-with-year--year">2017 – 2020</div>
+              <div className="headline-with-year--headlines">
+                <h4>Bookseller</h4>
+                <h5>De Revolutionibus. Books & Café</h5>
+              </div>
+            </div>
+            <ul className="description">
+              <li>Direct customer service</li>
+              <li>
+                Co-organizing and coordinating author meetings in the bookstore
+              </li>
+              <li>Managing the inventory</li>
+              <li>
+                Maintaining a friendly & cultural atmosphere in the bookstore
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed mi
-        dolor. Praesent suscipit eget lacus eget venenatis. Mauris in elit
-        ligula. Vestibulum dapibus at mauris varius blandit. Donec imperdiet
-        mattis orci id aliquet. Fusce ullamcorper fringilla tortor sit amet
-        molestie. Praesent eu posuere massa. Mauris ultricies neque felis, non
-        posuere dui hendrerit pharetra. Maecenas pellentesque justo arcu, at
-        laoreet odio pellentesque a.
-      </p>
-      <p>
-        Proin imperdiet quam erat, sit amet molestie mi sodales eu. Mauris
-        sodales ac libero sit amet pretium. Sed in urna sem. Nunc accumsan
-        mollis congue. Pellentesque pharetra malesuada tortor, ultricies aliquam
-        enim maximus gravida. Nunc bibendum finibus urna vitae bibendum. Etiam
-        consectetur neque sed suscipit vehicula. Maecenas id purus a diam ornare
-        ornare. Integer at dapibus tortor. Morbi et justo imperdiet, molestie
-        lectus ut, feugiat mi. Ut fermentum vehicula urna, eget pellentesque
-        justo porta a. Etiam laoreet massa nec mollis gravida.
-      </p>
-      <p>
-        Praesent ultricies imperdiet sapien ac consectetur. Vivamus pharetra,
-        diam eu sollicitudin sollicitudin, mauris elit mollis ipsum, et
-        pellentesque metus purus id quam. Aliquam tristique sed mauris euismod
-        volutpat. Nam ac orci ac erat tempus posuere. Praesent sem massa,
-        dapibus eget tincidunt id, commodo eget velit. Vestibulum tristique mi
-        luctus elit egestas convallis. Vivamus luctus risus vel pulvinar
-        ultrices. Etiam fermentum nisi id malesuada tristique. Quisque quis
-        purus diam. Vivamus dictum sit amet massa ac laoreet.
-      </p>
-    </div>
+      <hr />
+    </>
   );
 };
 
