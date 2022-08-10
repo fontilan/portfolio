@@ -1,38 +1,16 @@
 @use './colors.scss' as *;
 
-$size-l: min(50vw, 100vh);
-$size-m: min(45vw, 90vh);
-$size-s: min(40vw, 80vh);
+$size: min(50vw, 100vh);
 
-.blob-l {
-  background-color: $color-green5;
+.blob {
+  background: linear-gradient($color-mono5, $color-mono5) padding-box,
+    linear-gradient($color-green1, $color-green6) border-box;
   border-radius: 50%;
-  height: $size-l;
+  border: calc($size/10) solid #0000;
+  height: $size;
   position: absolute;
-  right: calc($size-l/-2);
-  top: calc($size-l/-2);
-  width: $size-l;
+  right: calc($size/-2);
+  top: calc($size/-2);
+  width: $size;
   z-index: -3;
-}
-
-.blob-m {
-  background-color: $color-green4;
-  border-radius: 50%;
-  height: $size-m;
-  position: absolute;
-  right: calc($size-m/-2);
-  top: calc($size-m/-2);
-  width: $size-m;
-  z-index: -2;
-}
-
-.blob-s {
-  background-color: $color-green3;
-  border-radius: 50%;
-  height: $size-s;
-  position: absolute;
-  right: calc($size-s/-2);
-  top: calc($size-s/-2);
-  width: $size-s;
-  z-index: -1;
 }

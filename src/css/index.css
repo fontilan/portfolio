@@ -53,37 +53,16 @@ h6 {
   isolation: isolate;
 }
 
-.blob-l {
-  background-color: #53febe;
+.blob {
+  background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(#005e5d, #88ffd1) border-box;
   border-radius: 50%;
+  border: calc(min(50vw, 100vh) / 10) solid rgba(0, 0, 0, 0);
   height: min(50vw, 100vh);
   position: absolute;
   right: calc(min(50vw, 100vh) / -2);
   top: calc(min(50vw, 100vh) / -2);
   width: min(50vw, 100vh);
   z-index: -3;
-}
-
-.blob-m {
-  background-color: #3fe1b0;
-  border-radius: 50%;
-  height: min(45vw, 90vh);
-  position: absolute;
-  right: calc(min(45vw, 90vh) / -2);
-  top: calc(min(45vw, 90vh) / -2);
-  width: min(45vw, 90vh);
-  z-index: -2;
-}
-
-.blob-s {
-  background-color: #2bc4a2;
-  border-radius: 50%;
-  height: min(40vw, 80vh);
-  position: absolute;
-  right: calc(min(40vw, 80vh) / -2);
-  top: calc(min(40vw, 80vh) / -2);
-  width: min(40vw, 80vh);
-  z-index: -1;
 }
 
 body {
