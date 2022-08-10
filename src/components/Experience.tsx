@@ -14,6 +14,23 @@ const Experience = () => {
                 <h5>Summa Linguae Technologies</h5>
               </div>
             </div>
+            <p>
+              Summa Linguae Technologies builds technology-enabled solutions to
+              help global, content-rich companies with any multilingual data
+              challenge.
+            </p>
+            <p>
+              <q>
+                We’re more than a language services provider. We leverage data,
+                automation, and human expertise to build language solutions that
+                help you do more for less—realizing cost savings and greater
+                efficiency with fewer human touch points
+              </q>
+            </p>
+            <p>
+              As a Management Board Assistant my responsibilities included
+              mainly:
+            </p>
             <ul className="description">
               <li>Supporting the CEO & COO in their daily duties</li>
               <li>Creating reports and presentations</li>
