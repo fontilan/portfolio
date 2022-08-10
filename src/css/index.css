@@ -53,6 +53,39 @@ h6 {
   isolation: isolate;
 }
 
+.blob-l {
+  background-color: #53febe;
+  border-radius: 50%;
+  height: min(50vw, 100vh);
+  position: absolute;
+  right: calc(min(50vw, 100vh) / -2);
+  top: calc(min(50vw, 100vh) / -2);
+  width: min(50vw, 100vh);
+  z-index: -3;
+}
+
+.blob-m {
+  background-color: #3fe1b0;
+  border-radius: 50%;
+  height: min(45vw, 90vh);
+  position: absolute;
+  right: calc(min(45vw, 90vh) / -2);
+  top: calc(min(45vw, 90vh) / -2);
+  width: min(45vw, 90vh);
+  z-index: -2;
+}
+
+.blob-s {
+  background-color: #2bc4a2;
+  border-radius: 50%;
+  height: min(40vw, 80vh);
+  position: absolute;
+  right: calc(min(40vw, 80vh) / -2);
+  top: calc(min(40vw, 80vh) / -2);
+  width: min(40vw, 80vh);
+  z-index: -1;
+}
+
 body {
   color: #42425a;
   font-family: "IBM Plex Sans", sans-serif;
@@ -128,72 +161,6 @@ body {
 
 .hero-line4 {
   margin-left: 2ch;
-}
-
-.blob-top-l {
-  background-color: #53febe;
-  border-radius: 50%;
-  height: 50vw;
-  position: absolute;
-  right: -25vw;
-  top: -25vw;
-  width: 50vw;
-  z-index: -3;
-}
-
-.blob-top-m {
-  background-color: #3fe1b0;
-  border-radius: 50%;
-  height: 45vw;
-  position: absolute;
-  right: -22.5vw;
-  top: -22.5vw;
-  width: 45vw;
-  z-index: -2;
-}
-
-.blob-top-s {
-  background-color: #2bc4a2;
-  border-radius: 50%;
-  height: 40vw;
-  position: absolute;
-  right: -20vw;
-  top: -20vw;
-  width: 40vw;
-  z-index: -1;
-}
-
-.blob-bottom-l {
-  background-color: #53febe;
-  border-radius: 50%;
-  height: 50vw;
-  position: absolute;
-  left: -25vw;
-  bottom: -25vw;
-  width: 50vw;
-  z-index: -3;
-}
-
-.blob-bottom-m {
-  background-color: #3fe1b0;
-  border-radius: 50%;
-  height: 45vw;
-  position: absolute;
-  left: -22.5vw;
-  bottom: -22.5vw;
-  width: 45vw;
-  z-index: -2;
-}
-
-.blob-bottom-s {
-  background-color: #2bc4a2;
-  border-radius: 50%;
-  height: 40vw;
-  position: absolute;
-  left: -20vw;
-  bottom: -20vw;
-  width: 40vw;
-  z-index: -1;
 }
 
 /*# sourceMappingURL=index.css.map */
