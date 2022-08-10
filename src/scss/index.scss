@@ -6,7 +6,7 @@
 // === TYPOGRAPHY & COLORS ===
 
 body {
-  color: $color-mono2;
+  color: $color-mono-3;
   font-family: $font-sans;
   font-size: 16px;
 }
@@ -17,15 +17,10 @@ h3,
 h4,
 h5,
 h6 {
-  color: $color-mono1;
+  color: $color-mono-4;
   font-family: $font-serif;
   font-weight: 700;
   line-height: 1;
-}
-
-p {
-  font-weight: 400;
-  margin-top: 1em;
 }
 
 h1 {
@@ -46,6 +41,25 @@ h3 {
   margin-top: 2em;
 }
 
+h4 {
+  font-family: $font-sans;
+  font-size: 2rem;
+  letter-spacing: -0.025rem;
+}
+
+h5 {
+  color: $color-mono-3;
+  font-family: $font-sans;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-top: 0.125em;
+}
+
+p {
+  font-weight: 400;
+  margin-top: 1em;
+}
+
 // === MAIN BODY ===
 
 body {
@@ -60,6 +74,22 @@ body {
   flex-direction: column;
   max-width: 50em;
   padding: 1em;
+}
+
+.headline-with-year {
+  align-items: center;
+  display: flex;
+
+  &--headlines {
+    margin-left: 1em;
+  }
+
+  &--year {
+    background: $color-green-7;
+    border-radius: 0.25em;
+    color: $color-mono-0;
+    padding: 0.25em 0.5em;
+  }
 }
 
 // === HERO ===

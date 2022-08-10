@@ -1,9 +1,14 @@
 const Experience = () => {
   return (
-    <div className="about">
-      <h3>
-        <span className="section-name">Experience</span>
-      </h3>
+    <div className="experience">
+      <h3>Experience</h3>
+      <div className="headline-with-year">
+        <div className="headline-with-year--year">2020 - now</div>
+        <div className="headline-with-year--headlines">
+          <h4>Management Board Assistant</h4>
+          <h5>Summa Linguae Technologies</h5>
+        </div>
+      </div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed mi
         dolor. Praesent suscipit eget lacus eget venenatis. Mauris in elit

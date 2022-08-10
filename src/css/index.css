@@ -54,7 +54,7 @@ h6 {
 }
 
 .blob {
-  background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(#005e5d, #88ffd1) border-box;
+  background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(to right, #005e5d, #53febe) border-box;
   border-radius: 50%;
   border: calc(min(50vw, 100vh) / 10) solid rgba(0, 0, 0, 0);
   height: min(50vw, 100vh);
@@ -83,11 +83,6 @@ h6 {
   line-height: 1;
 }
 
-p {
-  font-weight: 400;
-  margin-top: 1em;
-}
-
 h1 {
   font-size: 6rem;
   letter-spacing: -0.3rem;
@@ -106,6 +101,25 @@ h3 {
   margin-top: 2em;
 }
 
+h4 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 2rem;
+  letter-spacing: -0.025rem;
+}
+
+h5 {
+  color: #42425a;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-top: 0.125em;
+}
+
+p {
+  font-weight: 400;
+  margin-top: 1em;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -118,6 +132,20 @@ body {
   flex-direction: column;
   max-width: 50em;
   padding: 1em;
+}
+
+.headline-with-year {
+  align-items: center;
+  display: flex;
+}
+.headline-with-year--headlines {
+  margin-left: 1em;
+}
+.headline-with-year--year {
+  background: #068989;
+  border-radius: 0.25em;
+  color: #ffffff;
+  padding: 0.25em 0.5em;
 }
 
 .hero {
