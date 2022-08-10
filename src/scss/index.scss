@@ -56,10 +56,8 @@ h5 {
 }
 
 p {
-  font-weight: 400;
-  margin-top: 1em;
+  margin-bottom: 1em;
 }
-
 // === MAIN BODY ===
 
 body {
@@ -72,7 +70,7 @@ body {
 .app {
   display: flex;
   flex-direction: column;
-  max-width: 60em;
+  max-width: 100em;
   padding: 1em;
 }
 
@@ -82,11 +80,34 @@ hr {
 
 // === CARDS
 
+.splash {
+  color: $color-green-8;
+  font-style: italic;
+}
+
 .card {
   display: flex;
+  justify-content: flex-end;
+
+  &--title {
+    min-width: 20em;
+  }
 
   &--items {
     margin-left: 3em;
+    max-width: 40em;
+  }
+
+  p:nth-child(2) {
+    margin-top: 1em;
+  }
+
+  p:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+
+  q {
+    font-style: italic;
   }
 
   hr {
@@ -103,10 +124,11 @@ hr {
   }
 
   &--year {
-    background: $color-green-7;
+    background: $color-green-8;
     border-radius: 0.25em;
     color: $color-mono-0;
     padding: 0.25em 0.5em;
+    flex-shrink: 0;
   }
 }
 

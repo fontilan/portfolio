@@ -115,8 +115,7 @@ h5 {
 }
 
 p {
-  font-weight: 400;
-  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 body {
@@ -129,7 +128,7 @@ body {
 .app {
   display: flex;
   flex-direction: column;
-  max-width: 60em;
+  max-width: 100em;
   padding: 1em;
 }
 
@@ -137,11 +136,30 @@ hr {
   margin: 3em 0;
 }
 
+.splash {
+  color: #005e5d;
+  font-style: italic;
+}
+
 .card {
   display: flex;
+  justify-content: flex-end;
+}
+.card--title {
+  min-width: 20em;
 }
 .card--items {
   margin-left: 3em;
+  max-width: 40em;
+}
+.card p:nth-child(2) {
+  margin-top: 1em;
+}
+.card p:nth-last-child(1) {
+  margin-bottom: 0;
+}
+.card q {
+  font-style: italic;
 }
 .card hr {
   margin: 2em 0;
@@ -155,10 +173,11 @@ hr {
   margin-left: 1em;
 }
 .headline-with-year--year {
-  background: #068989;
+  background: #005e5d;
   border-radius: 0.25em;
   color: #ffffff;
   padding: 0.25em 0.5em;
+  flex-shrink: 0;
 }
 
 .description {
