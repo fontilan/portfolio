@@ -1,4 +1,5 @@
 import About from './components/About';
+import Blobs from './blobs/Blobs';
 import Experience from './components/Experience';
 import Hero from './components/Hero';
 import Hobbies from './components/Hobbies';
@@ -9,6 +10,7 @@ import Socials from './components/Socials';
 function App() {
   return (
     <div className="app">
+      <Blobs />
       <Hero />
       <About />
       <Skills />
@@ -16,12 +18,6 @@ function App() {
       <Experience />
       <Hobbies />
       <Socials />
-      <div className="blob-top-l"></div>
-      <div className="blob-top-m"></div>
-      <div className="blob-top-s"></div>
-      <div className="blob-bottom-l"></div>
-      <div className="blob-bottom-m"></div>
-      <div className="blob-bottom-s"></div>
     </div>
   );
 }
