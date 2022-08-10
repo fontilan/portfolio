@@ -52,6 +52,7 @@ body {
   display: flex;
   justify-content: center;
   overflow-x: hidden;
+  position: relative;
 }
 
 .app {
@@ -86,35 +87,72 @@ body {
 
 // === BLOB ===
 
-.blob-l {
+$size-l: 50vw;
+$size-m: 45vw;
+$size-s: 40vw;
+
+.blob-top-l {
   background-color: $color-green5;
-  border-radius: 46% 54% 35% 65% / 0% 0% 100% 100%;
-  height: 300px;
+  border-radius: 50%;
+  height: $size-l;
   position: absolute;
-  right: -9%;
-  top: 0;
-  width: 300px;
+  right: calc($size-l/-2);
+  top: calc($size-l/-2);
+  width: $size-l;
   z-index: -3;
 }
 
-.blob-m {
+.blob-top-m {
   background-color: $color-green4;
-  border-radius: 46% 54% 35% 65% / 0% 0% 100% 100%;
-  height: 250px;
+  border-radius: 50%;
+  height: $size-m;
   position: absolute;
-  right: -9%;
-  top: 0;
-  width: 250px;
+  right: calc($size-m/-2);
+  top: calc($size-m/-2);
+  width: $size-m;
   z-index: -2;
 }
 
-.blob-s {
+.blob-top-s {
   background-color: $color-green3;
-  border-radius: 46% 54% 35% 65% / 0% 0% 100% 100%;
-  height: 200px;
+  border-radius: 50%;
+  height: $size-s;
   position: absolute;
-  right: -9%;
-  top: 0;
-  width: 200px;
+  right: calc($size-s/-2);
+  top: calc($size-s/-2);
+  width: $size-s;
+  z-index: -1;
+}
+
+.blob-bottom-l {
+  background-color: $color-green5;
+  border-radius: 50%;
+  height: $size-l;
+  position: absolute;
+  left: calc($size-l/-2);
+  bottom: calc($size-l/-2);
+  width: $size-l;
+  z-index: -3;
+}
+
+.blob-bottom-m {
+  background-color: $color-green4;
+  border-radius: 50%;
+  height: $size-m;
+  position: absolute;
+  left: calc($size-m/-2);
+  bottom: calc($size-m/-2);
+  width: $size-m;
+  z-index: -2;
+}
+
+.blob-bottom-s {
+  background-color: $color-green3;
+  border-radius: 50%;
+  height: $size-s;
+  position: absolute;
+  left: calc($size-s/-2);
+  bottom: calc($size-s/-2);
+  width: $size-s;
   z-index: -1;
 }

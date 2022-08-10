@@ -53,9 +53,6 @@ h6 {
   isolation: isolate;
 }
 
-/********************
-  TYPOGRAPHY & COLORS
-********************/
 body {
   color: #42425a;
   font-family: "IBM Plex Sans", sans-serif;
@@ -98,13 +95,11 @@ h3 {
   margin-top: 1em;
 }
 
-/********************
-  MAIN BODY
-********************/
 body {
   display: flex;
   justify-content: center;
   overflow-x: hidden;
+  position: relative;
 }
 
 .app {
@@ -119,9 +114,6 @@ body {
   color: #2bc4a2;
 }
 
-/********************
-  HERO
- *******************/
 .hero {
   text-align: center;
 }
@@ -138,39 +130,69 @@ body {
   margin-left: 2ch;
 }
 
-/**
-BLOB
-**/
-.blob-l {
+.blob-top-l {
   background-color: #53febe;
-  border-radius: 46% 54% 35% 65%/0% 0% 100% 100%;
-  height: 300px;
+  border-radius: 50%;
+  height: 50vw;
   position: absolute;
-  right: -9%;
-  top: 0;
-  width: 300px;
+  right: -25vw;
+  top: -25vw;
+  width: 50vw;
   z-index: -3;
 }
 
-.blob-m {
+.blob-top-m {
   background-color: #3fe1b0;
-  border-radius: 46% 54% 35% 65%/0% 0% 100% 100%;
-  height: 250px;
+  border-radius: 50%;
+  height: 45vw;
   position: absolute;
-  right: -9%;
-  top: 0;
-  width: 250px;
+  right: -22.5vw;
+  top: -22.5vw;
+  width: 45vw;
   z-index: -2;
 }
 
-.blob-s {
+.blob-top-s {
   background-color: #2bc4a2;
-  border-radius: 46% 54% 35% 65%/0% 0% 100% 100%;
-  height: 200px;
+  border-radius: 50%;
+  height: 40vw;
   position: absolute;
-  right: -9%;
-  top: 0;
-  width: 200px;
+  right: -20vw;
+  top: -20vw;
+  width: 40vw;
+  z-index: -1;
+}
+
+.blob-bottom-l {
+  background-color: #53febe;
+  border-radius: 50%;
+  height: 50vw;
+  position: absolute;
+  left: -25vw;
+  bottom: -25vw;
+  width: 50vw;
+  z-index: -3;
+}
+
+.blob-bottom-m {
+  background-color: #3fe1b0;
+  border-radius: 50%;
+  height: 45vw;
+  position: absolute;
+  left: -22.5vw;
+  bottom: -22.5vw;
+  width: 45vw;
+  z-index: -2;
+}
+
+.blob-bottom-s {
+  background-color: #2bc4a2;
+  border-radius: 50%;
+  height: 40vw;
+  position: absolute;
+  left: -20vw;
+  bottom: -20vw;
+  width: 40vw;
   z-index: -1;
 }
 
