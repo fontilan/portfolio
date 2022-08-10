@@ -118,7 +118,6 @@ h2 {
   font-size: 5rem;
   font-style: italic;
   letter-spacing: -0.1rem;
-  line-height: 1;
   margin-top: 0.25em;
 }
 
@@ -140,11 +139,6 @@ body {
   flex-direction: column;
   max-width: 50em;
   padding: 1em;
-}
-
-.section-number {
-  font-size: 2rem;
-  color: #2bc4a2;
 }
 
 .hero {
