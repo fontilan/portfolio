@@ -104,6 +104,7 @@ h3 {
 body {
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .app {
@@ -135,6 +136,42 @@ body {
 
 .hero-line4 {
   margin-left: 2ch;
+}
+
+/**
+BLOB
+**/
+.blob-l {
+  background-color: #53febe;
+  border-radius: 46% 54% 35% 65%/0% 0% 100% 100%;
+  height: 300px;
+  position: absolute;
+  right: -9%;
+  top: 0;
+  width: 300px;
+  z-index: -3;
+}
+
+.blob-m {
+  background-color: #3fe1b0;
+  border-radius: 46% 54% 35% 65%/0% 0% 100% 100%;
+  height: 250px;
+  position: absolute;
+  right: -9%;
+  top: 0;
+  width: 250px;
+  z-index: -2;
+}
+
+.blob-s {
+  background-color: #2bc4a2;
+  border-radius: 46% 54% 35% 65%/0% 0% 100% 100%;
+  height: 200px;
+  position: absolute;
+  right: -9%;
+  top: 0;
+  width: 200px;
+  z-index: -1;
 }
 
 /*# sourceMappingURL=index.css.map */
