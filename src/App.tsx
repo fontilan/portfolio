@@ -16,9 +16,12 @@ function App() {
       <Experience />
       <Hobbies />
       <Socials />
-      <div className="blob-l"></div>
-      <div className="blob-m"></div>
-      <div className="blob-s"></div>
+      <div className="blob-top-l"></div>
+      <div className="blob-top-m"></div>
+      <div className="blob-top-s"></div>
+      <div className="blob-bottom-l"></div>
+      <div className="blob-bottom-m"></div>
+      <div className="blob-bottom-s"></div>
     </div>
   );
 }
