@@ -75,14 +75,17 @@ body {
 }
 
 hr {
+  background: $color-mono-1;
+  border: 0;
+  height: 2px;
   margin: 3em 0;
 }
 
 // === CARDS
 
 .splash {
-  color: $color-green-8;
-  font-style: italic;
+  color: $color-green-7;
+  font-weight: 400;
 }
 
 .card {
