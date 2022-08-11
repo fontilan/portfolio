@@ -24,7 +24,7 @@ const Experience = () => {
                 We’re more than a language services provider. We leverage data,
                 automation, and human expertise to build language solutions that
                 help you do more for less—realizing cost savings and greater
-                efficiency with fewer human touch points
+                efficiency with fewer human touch points.
               </q>
             </p>
             <p>
@@ -52,8 +52,20 @@ const Experience = () => {
                 <h5>De Revolutionibus. Books & Café</h5>
               </div>
             </div>
+            <p>
+              The De Revolutionibus Books & Café bookstore was established in
+              autumn 2013 on the initiative of the Copernicus Center Foundation,
+              which supports interdisciplinary research. The bookstore's
+              strengths include a huge selection of philosophy titles, an
+              excellent reportage section and, above all, good, carefully
+              selected literature. Independent, niche publishers, sophisticated
+              editorially and graphically designed children's books, all this
+              can be found at Bracka 14 in the 19th century Larisch Palace.
+            </p>
+            <p>As a Bookseller my responsibilities included mainly:</p>
             <ul className="description">
               <li>Direct customer service</li>
+              <li>Curating the philosophy, poetry and literature sections</li>
               <li>
                 Co-organizing and coordinating author meetings in the bookstore
               </li>
