@@ -102,14 +102,14 @@ h3 {
 
 h4 {
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 2rem;
+  font-size: 1.75rem;
   letter-spacing: -0.025rem;
 }
 
 h5 {
   color: #42425a;
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-style: italic;
   margin-top: 0.125em;
 }
@@ -128,8 +128,8 @@ body {
 .app {
   display: flex;
   flex-direction: column;
-  max-width: 100em;
-  padding: 1em;
+  max-width: 60em;
+  padding: 1em 1em 0 1em;
 }
 
 hr {
@@ -149,11 +149,13 @@ hr {
   justify-content: flex-end;
 }
 .card--title {
-  min-width: 20em;
+  width: 30%;
+  flex-shrink: 0;
 }
 .card--items {
   margin-left: 3em;
-  max-width: 40em;
+  width: 70%;
+  flex-shrink: 4;
 }
 .card p:nth-child(2) {
   margin-top: 1em;
@@ -202,6 +204,31 @@ hr {
 
 .hero-line4 {
   margin-left: 2ch;
+}
+
+footer {
+  color: #42425a;
+  padding: 2em;
+  text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+  .app {
+    width: 100vw;
+  }
+  .card {
+    flex-direction: column;
+    padding: 0.5em;
+  }
+  .card--title {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  .card--items {
+    margin-left: 0;
+    width: 100%;
+    flex-shrink: 4;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
