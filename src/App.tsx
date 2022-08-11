@@ -1,6 +1,7 @@
 import About from './components/About';
 import Blobs from './blobs/Blobs';
 import Experience from './components/Experience';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Hobbies from './components/Hobbies';
 import Projects from './components/Projects';
@@ -18,6 +19,7 @@ function App() {
       <Experience />
       <Hobbies />
       <Socials />
+      <Footer />
     </div>
   );
 }
