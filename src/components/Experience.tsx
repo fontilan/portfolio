@@ -75,6 +75,35 @@ const Experience = () => {
               </li>
             </ul>
           </div>
+          <hr />
+          <div className="card--item">
+            <div className="headline-with-year">
+              <div className="headline-with-year--year">2011 – 2013</div>
+              <div className="headline-with-year--headlines">
+                <h4>Customer Service Specialist – Returns Dept.</h4>
+                <h5>PSA Parts Ltd</h5>
+              </div>
+            </div>
+            <p>
+              PSA Parts Ltd is a pan-European manufacturer and distributor of IT
+              spares and consumer electronics. With over 30 years’ experience
+              and a trusted reputation, PSA supplies over 4,000 branded product
+              lines, is a Licensee for Duracell and is 2-POWER’s master
+              distributor across Europe. Additionally, PSA offers OEM brands on
+              products such as laptop docking stations, memory, keyboards and
+              LCD panels.
+            </p>
+            <p>
+              As a Customer Service Specialist my responsibilities included
+              mainly:
+            </p>
+            <ul className="description">
+              <li>Comprehensive order and complaint handling</li>
+              <li>Initial diagnosis of faulty equipment</li>
+              <li>Organizing shipments</li>
+              <li>Cooperation with other departments</li>
+            </ul>
+          </div>
         </div>
       </div>
       <hr />
