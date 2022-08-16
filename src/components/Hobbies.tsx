@@ -13,8 +13,8 @@ const Hobbies = () => {
             <h4>Video Games</h4>
             <p>
               I mostly enjoy role-playing games, platformers, roguelikes and
-              roguelites, indie classics, unusual strategy games and any other
-              unorthodox and independent productions.
+              roguelites, indie classics, card games and any other unorthodox
+              and independent productions.
             </p>
             <div>
               <p>My top 5 video games:</p>
