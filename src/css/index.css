@@ -1,4 +1,4 @@
-/*
+@import url("https://rsms.me/inter/inter.css"); /*
   Josh's Custom CSS Reset
   https://www.joshwcomeau.com/css/custom-css-reset/
 */
@@ -53,6 +53,15 @@ h6 {
   isolation: isolate;
 }
 
+html {
+  font-family: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
 .blob {
   background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(to right, #005e5d, #53febe) border-box;
   border-radius: 50%;
@@ -67,7 +76,7 @@ h6 {
 
 body {
   color: #42425a;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
 }
 
@@ -78,19 +87,20 @@ h4,
 h5,
 h6 {
   color: #20123a;
-  font-family: "IBM Plex Serif", serif;
+  font-family: "Zilla Slab", serif;
   font-weight: 700;
   line-height: 1;
 }
 
 h1 {
-  font-size: 6rem;
-  letter-spacing: -0.3rem;
+  font-size: clamp(3rem, 12vw + 1rem, 6rem);
+  letter-spacing: -0.2rem;
 }
 
 h2 {
-  font-size: 5rem;
+  font-size: clamp(2rem, 12vw + 1rem, 4.5rem);
   font-style: italic;
+  font-weight: 400;
   letter-spacing: -0.1rem;
   margin-top: 0.25em;
 }
@@ -101,15 +111,15 @@ h3 {
 }
 
 h4 {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 1.75rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
   letter-spacing: -0.025rem;
 }
 
 h5 {
   color: #42425a;
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 1.25rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
   font-style: italic;
   margin-top: 0.125em;
 }
@@ -129,7 +139,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 60em;
-  padding: 1em 1em 0 1em;
+  padding: 0.5em 0.5em 0 0.5em;
 }
 
 hr {
