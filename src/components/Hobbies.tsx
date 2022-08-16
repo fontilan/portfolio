@@ -120,7 +120,7 @@ const Hobbies = () => {
               <h4>Music</h4>
               <p>
                 I love discovering new bands, new styles and new genres. Even
-                though there are band that I keep coming back to (The Beatles,
+                though there are bands that I keep coming back to (The Beatles,
                 Radiohead, MF DOOM, Talking Heads, Beach House) I am constantly
                 on the search for something new. I enjoy making music playlists
                 to catalogue my discoveries (see the lusco-fusco app in the
