@@ -158,12 +158,12 @@ const Hobbies = () => {
               <p>
                 Apart from the above I also enjoy working out (calisthenics),
                 playing with my cat Dżuma and of course spending time with my
-                friends, playing board games, watching films together or just
+                friends - playing board games, watching films together or just
                 cooking, drinking and talking about nonsense.
               </p>
               <p>
                 When I feel inspired I like to write short stories about
-                completely fiction people in completely made-up scenarios.
+                completely fictional people in completely made-up scenarios.
               </p>
               <p>
                 There is a Rubik's cube on my desk, sometimes I solve it for
