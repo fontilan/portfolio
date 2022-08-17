@@ -1,0 +1,21 @@
+@media screen and (max-width: 550px) {
+  .app {
+    width: 100vw;
+  }
+
+  .card {
+    flex-direction: column;
+    padding: 0.5em;
+
+    &--title {
+      width: 100%;
+      margin-bottom: 1em;
+    }
+
+    &--items {
+      flex-shrink: 1;
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+}

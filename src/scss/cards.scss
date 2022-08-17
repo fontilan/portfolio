@@ -1,0 +1,63 @@
+@use './colors.scss' as *;
+
+.splash {
+  color: $color-green-7;
+  font-weight: 400;
+}
+
+.work-title {
+  font-style: italic;
+}
+
+.card {
+  display: flex;
+  justify-content: flex-end;
+
+  &--title {
+    width: 30%;
+    flex-shrink: 0;
+  }
+
+  &--items {
+    margin-left: 3em;
+    width: 70%;
+    flex-shrink: 4;
+  }
+
+  p:nth-child(2) {
+    margin-top: 1em;
+  }
+
+  p:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+
+  q {
+    font-style: italic;
+  }
+
+  hr {
+    margin: 2em 0;
+  }
+}
+
+.headline-with-year {
+  align-items: center;
+  display: flex;
+
+  &--headlines {
+    margin-left: 1em;
+  }
+
+  &--year {
+    background: $color-green-8;
+    border-radius: 0.25em;
+    color: $color-mono-0;
+    flex-shrink: 0;
+    padding: 0.25em 0.5em;
+  }
+}
+
+.description {
+  margin-top: 1em;
+}
