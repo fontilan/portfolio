@@ -1,67 +1,4 @@
-@import url("https://rsms.me/inter/inter.css"); /*
-  Josh's Custom CSS Reset
-  https://www.joshwcomeau.com/css/custom-css-reset/
-*/
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-}
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
-
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
-
-#root,
-#__next {
-  isolation: isolate;
-}
-
-html {
-  font-family: "Inter", sans-serif;
-}
-
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: "Inter var", sans-serif;
-  }
-}
+@import url("https://rsms.me/inter/inter.css");
 .blob {
   background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(to right, #005e5d, #53febe) border-box;
   border-radius: 50%;
@@ -72,81 +9,6 @@ html {
   top: calc(min(50vw, 100vh) / -2);
   width: min(50vw, 100vh);
   z-index: -3;
-}
-
-body {
-  color: #42425a;
-  font-family: "Inter", sans-serif;
-  font-size: 18px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #20123a;
-  font-family: "Zilla Slab", serif;
-  font-weight: 700;
-  line-height: 1;
-}
-
-h1 {
-  font-size: clamp(3rem, 12vw + 1rem, 6rem);
-  letter-spacing: -0.2rem;
-}
-
-h2 {
-  font-size: clamp(2rem, 12vw + 1rem, 4.5rem);
-  font-style: italic;
-  font-weight: 400;
-  letter-spacing: -0.1rem;
-  margin-top: 0.25em;
-}
-
-h3 {
-  font-size: 2.5rem;
-  letter-spacing: -0.05rem;
-}
-
-h4 {
-  font-family: "Inter", sans-serif;
-  font-size: 1.5rem;
-  letter-spacing: -0.025rem;
-}
-
-h5 {
-  color: #42425a;
-  font-family: "Inter", sans-serif;
-  font-size: 1.125rem;
-  font-style: italic;
-  margin-top: 0.125em;
-}
-
-p {
-  margin-bottom: 1em;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  overflow-x: hidden;
-  position: relative;
-}
-
-.app {
-  display: flex;
-  flex-direction: column;
-  max-width: 60em;
-  padding: 0.5em 0.5em 0 0.5em;
-}
-
-hr {
-  background: #f9f9fb;
-  border: 0;
-  height: 2px;
-  margin: 3em 0;
 }
 
 .splash {
@@ -195,12 +57,73 @@ hr {
   background: #005e5d;
   border-radius: 0.25em;
   color: #ffffff;
-  padding: 0.25em 0.5em;
   flex-shrink: 0;
+  padding: 0.25em 0.5em;
 }
 
 .description {
   margin-top: 1em;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+footer {
+  color: #42425a;
+  padding: 2em;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #20123a;
+  font-family: "Zilla Slab", serif;
+  font-weight: 700;
+  line-height: 1;
+}
+
+h1 {
+  font-size: clamp(3rem, 12vw + 1rem, 6rem);
+  letter-spacing: -0.2rem;
+}
+
+h2 {
+  font-size: clamp(2rem, 12vw + 1rem, 4.5rem);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.1rem;
+  margin-top: 0.25em;
+}
+
+h3 {
+  font-size: 2.5rem;
+  letter-spacing: -0.05rem;
+  position: relative;
+  text-decoration: solid underline #3fe1b0 5px;
+}
+
+h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: -0.025rem;
+}
+
+h5 {
+  color: #42425a;
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  font-style: italic;
+  margin-top: 0.125em;
 }
 
 .hero {
@@ -220,12 +143,6 @@ hr {
   margin-left: 2ch;
 }
 
-footer {
-  color: #42425a;
-  padding: 2em;
-  text-align: center;
-}
-
 @media screen and (max-width: 550px) {
   .app {
     width: 100vw;
@@ -239,10 +156,91 @@ footer {
     margin-bottom: 1em;
   }
   .card--items {
+    flex-shrink: 1;
     margin-left: 0;
     width: 100%;
-    flex-shrink: 4;
   }
+}
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  color: #42425a;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  overflow-x: hidden;
+  position: relative;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  max-width: 60em;
+  padding: 0.5em 0.5em 0 0.5em;
+}
+
+hr {
+  background: #f9f9fb;
+  border: 0;
+  height: 2px;
+  margin: 3em 0;
 }
 
 /*# sourceMappingURL=index.css.map */

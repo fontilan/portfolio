@@ -1,71 +1,24 @@
-@use './reset.scss';
+@use './blobs.scss';
+@use './cards.scss';
 @use './colors.scss' as *;
-@use './fonts.scss' as *;
-@use './blobs.scss' as *;
-
-// === TYPOGRAPHY & COLORS ===
+@use './fonts.scss';
+@use './footer.scss';
+@use './headings.scss';
+@use './hero.scss';
+@use './media.scss';
+@use './reset.scss';
 
 body {
   color: $color-mono-3;
-  font-family: $font-sans;
+  display: flex;
   font-size: 18px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: $color-mono-4;
-  font-family: $font-serif;
-  font-weight: 700;
-  line-height: 1;
-}
-
-h1 {
-  font-size: clamp(3rem, 12vw + 1rem, 6rem);
-  letter-spacing: -0.2rem;
-}
-
-h2 {
-  font-size: clamp(2rem, 12vw + 1rem, 4.5rem);
-  font-style: italic;
-  font-weight: 400;
-  letter-spacing: -0.1rem;
-  margin-top: 0.25em;
-}
-
-h3 {
-  font-size: 2.5rem;
-  letter-spacing: -0.05rem;
-  // margin-top: 2em;
-}
-
-h4 {
-  font-family: $font-sans;
-  font-size: 1.5rem;
-  letter-spacing: -0.025rem;
-}
-
-h5 {
-  color: $color-mono-3;
-  font-family: $font-sans;
-  font-size: 1.125rem;
-  font-style: italic;
-  margin-top: 0.125em;
+  justify-content: center;
+  overflow-x: hidden;
+  position: relative;
 }
 
 p {
   margin-bottom: 1em;
-}
-// === MAIN BODY ===
-
-body {
-  display: flex;
-  justify-content: center;
-  overflow-x: hidden;
-  position: relative;
 }
 
 .app {
@@ -80,119 +33,4 @@ hr {
   border: 0;
   height: 2px;
   margin: 3em 0;
-}
-
-// === CARDS
-
-.splash {
-  color: $color-green-7;
-  font-weight: 400;
-}
-
-.work-title {
-  font-style: italic;
-}
-
-.card {
-  display: flex;
-  justify-content: flex-end;
-
-  &--title {
-    width: 30%;
-    flex-shrink: 0;
-  }
-
-  &--items {
-    margin-left: 3em;
-    width: 70%;
-    flex-shrink: 4;
-  }
-
-  p:nth-child(2) {
-    margin-top: 1em;
-  }
-
-  p:nth-last-child(1) {
-    margin-bottom: 0;
-  }
-
-  q {
-    font-style: italic;
-  }
-
-  hr {
-    margin: 2em 0;
-  }
-}
-
-.headline-with-year {
-  align-items: center;
-  display: flex;
-
-  &--headlines {
-    margin-left: 1em;
-  }
-
-  &--year {
-    background: $color-green-8;
-    border-radius: 0.25em;
-    color: $color-mono-0;
-    padding: 0.25em 0.5em;
-    flex-shrink: 0;
-  }
-}
-
-.description {
-  margin-top: 1em;
-}
-
-// === HERO ===
-
-.hero {
-  margin: 5em 0;
-  text-align: center;
-}
-
-.hero-line1 {
-  margin-left: -3ch;
-}
-
-.hero-line2 {
-  margin-left: -1ch;
-}
-
-.hero-line4 {
-  margin-left: 2ch;
-}
-
-// === FOOTER ===
-
-footer {
-  color: $color-mono-3;
-  padding: 2em;
-  text-align: center;
-}
-
-// === MEDIA QUERIES ===
-
-@media screen and (max-width: 550px) {
-  .app {
-    width: 100vw;
-  }
-
-  .card {
-    flex-direction: column;
-    padding: 0.5em;
-
-    &--title {
-      width: 100%;
-      margin-bottom: 1em;
-    }
-
-    &--items {
-      margin-left: 0;
-      width: 100%;
-      flex-shrink: 4;
-    }
-  }
 }
