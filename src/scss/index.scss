@@ -1,3 +1,4 @@
+@use './reset.scss';
 @use './blobs.scss';
 @use './cards.scss';
 @use './colors.scss' as *;
@@ -6,7 +7,6 @@
 @use './headings.scss';
 @use './hero.scss';
 @use './media.scss';
-@use './reset.scss';
 
 body {
   color: $color-mono-3;
