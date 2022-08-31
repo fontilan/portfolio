@@ -2,10 +2,10 @@ const About = () => {
   return (
     <>
       <div className="card">
-        <div className="card--title">
+        <div className="card__title">
           <h3>About Me</h3>
         </div>
-        <div className="card--items">
+        <div className="card__items">
           <p>
             Philosophy graduate of the Jagiellonian University with over 5 years
             of professional experience in the field of customer service and

@@ -2,14 +2,14 @@ const Experience = () => {
   return (
     <>
       <div className="card">
-        <div className="card--title">
+        <div className="card__title">
           <h3>Experience</h3>
         </div>
-        <div className="card--items">
-          <div className="card--item">
+        <div className="card__items">
+          <div className="card__item">
             <div className="headline-with-year">
-              <div className="headline-with-year--year">2020 – now</div>
-              <div className="headline-with-year--headlines">
+              <div className="headline-with-year__year">2020 – now</div>
+              <div className="headline-with-year__headlines">
                 <h4>Management Board Assistant</h4>
                 <h5>Summa Linguae Technologies</h5>
               </div>
@@ -44,10 +44,10 @@ const Experience = () => {
             </ul>
           </div>
           <hr />
-          <div className="card--item">
+          <div className="card__item">
             <div className="headline-with-year">
-              <div className="headline-with-year--year">2017 – 2020</div>
-              <div className="headline-with-year--headlines">
+              <div className="headline-with-year__year">2017 – 2020</div>
+              <div className="headline-with-year__headlines">
                 <h4>Bookseller</h4>
                 <h5>De Revolutionibus. Books & Café</h5>
               </div>
@@ -76,10 +76,10 @@ const Experience = () => {
             </ul>
           </div>
           <hr />
-          <div className="card--item">
+          <div className="card__item">
             <div className="headline-with-year">
-              <div className="headline-with-year--year">2011 – 2013</div>
-              <div className="headline-with-year--headlines">
+              <div className="headline-with-year__year">2011 – 2013</div>
+              <div className="headline-with-year__headlines">
                 <h4>Customer Service Specialist – Returns Dept.</h4>
                 <h5>PSA Parts Ltd</h5>
               </div>

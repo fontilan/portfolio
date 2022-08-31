@@ -2,14 +2,14 @@ const Hobbies = () => {
   return (
     <>
       <div className="card">
-        <div className="card--title">
+        <div className="card__title">
           <h3>
             Hobbies <br />
             <span className="splash">&</span> Interests
           </h3>
         </div>
-        <div className="card--items">
-          <div className="card--item">
+        <div className="card__items">
+          <div className="card__item">
             <h4>Video Games</h4>
             <p>
               I mostly enjoy role-playing games, platformers, roguelikes and
@@ -21,7 +21,7 @@ const Hobbies = () => {
             </p>
           </div>
           <hr />
-          <div className="card--item">
+          <div className="card__item">
             <h4>Films</h4>
             <p>
               My favourites are genre films - horrors, science-fiction,
@@ -33,7 +33,7 @@ const Hobbies = () => {
               Watcher.
             </p>
             <hr />
-            <div className="card--item">
+            <div className="card__item">
               <h4>Literature</h4>
               <p>
                 I enjoy modernist and postmodernist dramas and short stories. My
@@ -45,7 +45,7 @@ const Hobbies = () => {
               </p>
             </div>
             <hr />
-            <div className="card--item">
+            <div className="card__item">
               <h4>Music</h4>
               <p>
                 I love discovering new bands, new styles and new genres. Even
@@ -57,7 +57,7 @@ const Hobbies = () => {
               </p>
             </div>
             <hr />
-            <div className="card--item">
+            <div className="card__item">
               <h4>Other</h4>
               <p>
                 Apart from the above I also enjoy working out (calisthenics),

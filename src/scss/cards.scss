@@ -13,12 +13,12 @@
   display: flex;
   justify-content: flex-end;
 
-  &--title {
+  &__title {
     width: 30%;
     flex-shrink: 0;
   }
 
-  &--items {
+  &__items {
     margin-left: 3em;
     width: 70%;
     flex-shrink: 4;
@@ -45,11 +45,11 @@
   align-items: center;
   display: flex;
 
-  &--headlines {
+  &__headlines {
     margin-left: 1em;
   }
 
-  &--year {
+  &__year {
     background: $color-green-8;
     border-radius: 0.25em;
     color: $color-mono-0;
