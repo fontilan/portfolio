@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="hero">
+    <section className="hero">
       <h1>
         <span className="hero-line1">Wojciech</span>
         <br />
@@ -11,7 +11,7 @@ const Hero = () => {
         <br />
         <span className="hero-line4">Developer</span>
       </h2>
-    </div>
+    </section>
   );
 };
 
