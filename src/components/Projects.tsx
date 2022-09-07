@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     <>
-      <div className="card">
+      <article className="card">
         <div className="card__title">
           <h3>Projects</h3>
         </div>
@@ -38,7 +38,7 @@ const Projects = () => {
             amet massa ac laoreet.
           </p>
         </div>
-      </div>
+      </article>
       <hr />
     </>
   );

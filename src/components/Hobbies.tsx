@@ -1,7 +1,7 @@
 const Hobbies = () => {
   return (
     <>
-      <div className="card">
+      <article className="card">
         <div className="card__title">
           <h3>
             Hobbies <br />
@@ -70,7 +70,7 @@ const Hobbies = () => {
             </div>
           </div>
         </div>
-      </div>
+      </article>
       <hr />
     </>
   );

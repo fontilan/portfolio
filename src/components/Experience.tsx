@@ -1,7 +1,7 @@
 const Experience = () => {
   return (
     <>
-      <div className="card">
+      <article className="card">
         <div className="card__title">
           <h3>Experience</h3>
         </div>
@@ -105,7 +105,7 @@ const Experience = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </article>
       <hr />
     </>
   );

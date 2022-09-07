@@ -20,7 +20,7 @@ const Socials = () => {
 
   return (
     <>
-      <div className="card">
+      <article className="card">
         <div className="card__title">
           <h3>Socials</h3>
         </div>
@@ -57,7 +57,7 @@ const Socials = () => {
             />
           </ul>
         </div>
-      </div>
+      </article>
       <hr />
     </>
   );

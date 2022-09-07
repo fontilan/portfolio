@@ -1,7 +1,7 @@
 const Skills = () => {
   return (
     <>
-      <div className="card">
+      <article className="card">
         <div className="card__title">
           <h3>
             Technologies <br />
@@ -30,7 +30,7 @@ const Skills = () => {
             amet massa ac laoreet.
           </p>
         </div>
-      </div>
+      </article>
       <hr />
     </>
   );

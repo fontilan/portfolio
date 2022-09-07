@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <>
-      <div className="card">
+      <article className="card">
         <div className="card__title">
           <h3>About Me</h3>
         </div>
@@ -23,7 +23,7 @@ const About = () => {
             accessible.
           </p>
         </div>
-      </div>
+      </article>
       <hr />
     </>
   );
