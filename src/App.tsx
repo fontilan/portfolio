@@ -8,17 +8,44 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Socials from './components/Socials';
 
+// values hardcoded for now, to be refactored
+const Sidebar = () => {
+  return (
+    <ul className="sidebar">
+      <li>
+        <a href="#About">About Me</a>
+      </li>
+      <li>
+        <a href="#Skills">Technologies & Skills</a>
+      </li>
+      <li>
+        <a href="#Projects">Projects</a>
+      </li>
+      <li>
+        <a href="#Experience">Experience</a>
+      </li>
+      <li>
+        <a href="#Hobbies">Hobbies & Interests</a>
+      </li>
+      <li>
+        <a href="#Socials">Online Presence</a>
+      </li>
+    </ul>
+  );
+};
+
 function App() {
   return (
     <div className="app">
+      <Sidebar />
       <Blobs />
       <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Experience />
-      <Hobbies />
-      <Socials />
+      <About id="About" />
+      <Skills id="Skills" />
+      <Projects id="Projects" />
+      <Experience id="Experience" />
+      <Hobbies id="Hobbies" />
+      <Socials id="Socials" />
       <Footer />
     </div>
   );
