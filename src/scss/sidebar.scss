@@ -1,0 +1,23 @@
+@use './colors.scss' as *;
+
+.sidebar {
+  background-color: $color-green-9;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+
+  > li {
+    list-style-type: none;
+    padding: 1em;
+
+    > a {
+      color: $color-mono-0;
+      text-decoration: none;
+    }
+  }
+}

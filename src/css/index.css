@@ -197,6 +197,26 @@ h5 {
   margin-left: 2ch;
 }
 
+.sidebar {
+  background-color: #083f37;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+}
+.sidebar > li {
+  list-style-type: none;
+  padding: 1em;
+}
+.sidebar > li > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 550px) {
   .app {
     width: 100vw;
