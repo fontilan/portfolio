@@ -1,9 +1,9 @@
-const Experience = () => {
+const Experience = ({ id }: { id: string }) => {
   return (
     <>
       <article className="card">
         <section className="card__title">
-          <h3>Experience</h3>
+          <h3 id={id}>Experience</h3>
         </section>
         <section className="card__items">
           <div className="card__item">

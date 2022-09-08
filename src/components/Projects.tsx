@@ -1,9 +1,9 @@
-const Projects = () => {
+const Projects = ({ id }: { id: string }) => {
   return (
     <>
       <article className="card">
         <section className="card__title">
-          <h3>Projects</h3>
+          <h3 id={id}>Projects</h3>
         </section>
         <section className="card__items">
           <p>

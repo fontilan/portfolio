@@ -1,4 +1,4 @@
-const Socials = () => {
+const Socials = ({ id }: { id: string }) => {
   const ListItem = ({
     activity,
     websiteName,
@@ -22,7 +22,7 @@ const Socials = () => {
     <>
       <article className="card">
         <section className="card__title">
-          <h3>Socials</h3>
+          <h3 id={id}>Socials</h3>
         </section>
         <section className="card__items">
           <p>

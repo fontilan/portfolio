@@ -1,9 +1,9 @@
-const Hobbies = () => {
+const Hobbies = ({ id }: { id: string }) => {
   return (
     <>
       <article className="card">
         <section className="card__title">
-          <h3>
+          <h3 id={id}>
             Hobbies <br />
             <span className="splash">&</span> Interests
           </h3>
