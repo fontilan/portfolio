@@ -2,10 +2,10 @@ const Projects = () => {
   return (
     <>
       <article className="card">
-        <div className="card__title">
+        <section className="card__title">
           <h3>Projects</h3>
-        </div>
-        <div className="card__items">
+        </section>
+        <section className="card__items">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed
             mi dolor. Praesent suscipit eget lacus eget venenatis. Mauris in
@@ -37,7 +37,7 @@ const Projects = () => {
             malesuada tristique. Quisque quis purus diam. Vivamus dictum sit
             amet massa ac laoreet.
           </p>
-        </div>
+        </section>
       </article>
       <hr />
     </>

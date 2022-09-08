@@ -2,10 +2,10 @@ const About = () => {
   return (
     <>
       <article className="card">
-        <div className="card__title">
+        <section className="card__title">
           <h3>About Me</h3>
-        </div>
-        <div className="card__items">
+        </section>
+        <section className="card__items">
           <p>
             Philosophy graduate of the Jagiellonian University with over 5 years
             of professional experience in the field of customer service and
@@ -22,7 +22,7 @@ const About = () => {
             the internet at least a little bit better, prettier and more
             accessible.
           </p>
-        </div>
+        </section>
       </article>
       <hr />
     </>

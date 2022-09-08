@@ -2,10 +2,10 @@ const Experience = () => {
   return (
     <>
       <article className="card">
-        <div className="card__title">
+        <section className="card__title">
           <h3>Experience</h3>
-        </div>
-        <div className="card__items">
+        </section>
+        <section className="card__items">
           <div className="card__item">
             <div className="headline-with-year">
               <div className="headline-with-year__year">2020 – now</div>
@@ -104,7 +104,7 @@ const Experience = () => {
               <li>Cooperation with other departments</li>
             </ul>
           </div>
-        </div>
+        </section>
       </article>
       <hr />
     </>

@@ -21,10 +21,10 @@ const Socials = () => {
   return (
     <>
       <article className="card">
-        <div className="card__title">
+        <section className="card__title">
           <h3>Socials</h3>
-        </div>
-        <div className="card__items">
+        </section>
+        <section className="card__items">
           <p>
             I'm not really a fan of the likes of Facebook, Twitter, Instagram
             etc. I was once on Google+, guess how that worked out 😎
@@ -56,7 +56,7 @@ const Socials = () => {
               link="https://steamcommunity.com/profiles/76561198062972504"
             />
           </ul>
-        </div>
+        </section>
       </article>
       <hr />
     </>
