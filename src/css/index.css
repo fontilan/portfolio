@@ -57,12 +57,12 @@ h6 {
 .blob {
   background: linear-gradient(#fcfcfc, #fcfcfc) padding-box, linear-gradient(to right, #005e5d, #53febe) border-box;
   border-radius: 50%;
-  border: calc(min(50vw, 100vh) / 8) solid rgba(0, 0, 0, 0);
-  height: min(50vw, 100vh);
+  border: calc(min(30vw, 80vh) / 6) solid rgba(0, 0, 0, 0);
+  height: min(30vw, 80vh);
   position: absolute;
-  right: calc(min(50vw, 100vh) / -2);
-  top: calc(min(50vw, 100vh) / -2);
-  width: min(50vw, 100vh);
+  right: calc(min(30vw, 80vh) / -3);
+  top: calc(min(30vw, 80vh) / -2.5);
+  width: min(30vw, 80vh);
   z-index: -3;
 }
 

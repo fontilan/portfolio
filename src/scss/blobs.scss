@@ -1,16 +1,16 @@
 @use './colors.scss' as *;
 
-$size: min(50vw, 100vh);
+$size: min(30vw, 80vh);
 
 .blob {
   background: linear-gradient($color-mono-0, $color-mono-0) padding-box,
     linear-gradient(to right, $color-green-8, $color-green-4) border-box;
   border-radius: 50%;
-  border: calc($size/8) solid #0000;
+  border: calc($size/6) solid #0000;
   height: $size;
   position: absolute;
-  right: calc($size/-2);
-  top: calc($size/-2);
+  right: calc($size/-3);
+  top: calc($size/-2.5);
   width: $size;
   z-index: -3;
 }
