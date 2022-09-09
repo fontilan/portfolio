@@ -1,20 +1,25 @@
 const Hero = () => {
   const Navigation = () => {
     return (
-      <ul className="navigation">
+      <ul className="hero__navigation">
         <li>
-          <a href="#Projects">PROJECTS</a>
+          <a href="#Projects">projects</a>
         </li>
         <li>
-          <a href="#Experience">EXPERIENCE</a>
+          <a href="#Experience">experience</a>
         </li>
         <li>
-          <a href="#Hobbies">HOBBIES</a>
-        </li>
-        <li>
-          <a href="#Contact">CONTACT</a>
+          <a href="#Contact">contact</a>
         </li>
       </ul>
+    );
+  };
+
+  const Button = () => {
+    return (
+      <a className="hero__button" href="#About">
+        1
+      </a>
     );
   };
   return (
@@ -24,6 +29,7 @@ const Hero = () => {
         <h2>Frontend Developer</h2>
       </div>
       <Navigation />
+      <Button />
     </section>
   );
 };
