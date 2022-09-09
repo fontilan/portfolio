@@ -80,13 +80,13 @@ h6 {
   justify-content: flex-end;
 }
 .card__title {
-  width: 30%;
   flex-shrink: 0;
+  width: 30%;
 }
 .card__items {
+  flex-shrink: 4;
   margin-left: 3em;
   width: 70%;
-  flex-shrink: 4;
 }
 .card p:nth-child(2) {
   margin-top: 1em;
@@ -148,21 +148,21 @@ h6 {
 
 h1 {
   font-family: "Inter", sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
   letter-spacing: -0.2rem;
 }
 
 h2 {
   color: #42425a;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: -0.125rem;
   margin-top: 0.25em;
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: -0.1rem;
   line-height: 1.125;
@@ -170,7 +170,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 400;
   letter-spacing: -0.05rem;
 }
@@ -185,30 +185,35 @@ h5 {
 
 .hero {
   display: flex;
-  margin-bottom: 7.5em;
   justify-content: space-between;
+  margin-bottom: 7.5em;
 }
-
-.navigation {
-  display: flex;
+.hero__navigation {
   align-items: center;
-  column-gap: 1em;
+  column-gap: 1.25em;
+  display: flex;
+  padding: 0;
 }
-.navigation > li {
+.hero__navigation > li {
   list-style-type: none;
 }
-.navigation > li > a {
+.hero__navigation > li > a {
   background-color: #fcfcfc;
-  padding: 0.25em;
   border-radius: 0.25em;
-  color: #42425a;
-  text-decoration: none;
   border: 1px solid transparent;
+  color: #42425a;
+  padding: 0.25em;
+  text-decoration: none;
   transition: border-color 0.25s;
 }
-.navigation > li > a:hover {
-  color: #20123a;
+.hero__navigation > li > a:hover {
   border-color: #068989;
+  color: #20123a;
+}
+.hero__button {
+  align-items: center;
+  display: flex;
+  display: none;
 }
 
 .sidebar {
