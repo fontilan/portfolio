@@ -8,7 +8,7 @@ h4,
 h5,
 h6 {
   color: $color-mono-4;
-  font-family: $font-serif;
+  font-family: $font-sans;
   line-height: 1;
 }
 
@@ -20,31 +20,32 @@ h1 {
 }
 
 h2 {
-  font-style: italic;
-  font-size: 2rem;
+  // font-style: italic;
+  color: $color-mono-3;
+  font-size: 1.75rem;
   font-weight: 400;
-  letter-spacing: -0.1rem;
+  letter-spacing: -0.125rem;
   margin-top: 0.25em;
 }
 
 h3 {
-  font-size: 2rem;
-  font-weight: 400;
-  letter-spacing: -0.05rem;
+  font-size: 1.75rem;
+  font-weight: 500;
+  letter-spacing: -0.1rem;
   line-height: 1.125;
   position: relative;
-  text-decoration: solid underline $color-green-5 2px;
+  // text-decoration: solid underline $color-green-5 2px;
 }
 
 h4 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 400;
-  letter-spacing: -0.025rem;
+  letter-spacing: -0.05rem;
 }
 
 h5 {
   color: $color-mono-3;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-style: italic;
   font-weight: 300;
   margin-top: 0.125em;
