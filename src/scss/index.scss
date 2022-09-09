@@ -2,7 +2,7 @@
 @use './blobs.scss';
 @use './cards.scss';
 @use './colors.scss' as *;
-@use './fonts.scss';
+@use './fonts.scss' as *;
 @use './footer.scss';
 @use './headings.scss';
 @use './hero.scss';
@@ -10,9 +10,10 @@
 @use './mediaQueries';
 
 body {
+  background-color: $color-mono-0;
   color: $color-mono-3;
   display: flex;
-  font-size: 18px;
+  font-family: $font-sans;
   justify-content: center;
   overflow-x: hidden;
   position: relative;
@@ -30,7 +31,7 @@ p {
 }
 
 hr {
-  background: $color-mono-1;
+  background: $color-mono-2;
   border: 0;
   height: 2px;
   margin: 3em 0;
