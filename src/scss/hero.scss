@@ -2,31 +2,39 @@
 
 .hero {
   display: flex;
-  margin-bottom: 7.5em;
   justify-content: space-between;
-}
+  margin-bottom: 7.5em;
 
-.navigation {
-  display: flex;
-  align-items: center;
-  column-gap: 1em;
+  &__navigation {
+    align-items: center;
+    column-gap: 1.25em;
+    display: flex;
+    padding: 0;
 
-  > li {
-    list-style-type: none;
+    > li {
+      list-style-type: none;
 
-    > a {
-      background-color: $color-mono-0;
-      padding: 0.25em;
-      border-radius: 0.25em;
-      color: $color-mono-3;
-      text-decoration: none;
-      border: 1px solid transparent;
-      transition: border-color 0.25s;
+      > a {
+        background-color: $color-mono-0;
+        border-radius: 0.25em;
+        border: 1px solid transparent;
+        color: $color-mono-3;
+        padding: 0.25em;
+        text-decoration: none;
+        transition: border-color 0.25s;
 
-      &:hover {
-        color: $color-mono-4;
-        border-color: $color-green-7;
+        &:hover {
+          border-color: $color-green-7;
+          color: $color-mono-4;
+        }
       }
     }
+  }
+
+  &__button {
+    align-items: center;
+    display: flex;
+    // for now we don't display it, it's there when we're ready to develop the light/dark toggle logic
+    display: none;
   }
 }
