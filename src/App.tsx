@@ -6,7 +6,7 @@ import Hero from './components/Hero';
 import Hobbies from './components/Hobbies';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-import Socials from './components/Socials';
+import Contact from './components/Contact';
 
 // values hardcoded for now, to be refactored
 // const Sidebar = () => {
@@ -44,7 +44,7 @@ function App() {
       <Projects id="Projects" />
       <Experience id="Experience" />
       <Hobbies id="Hobbies" />
-      <Socials id="Socials" />
+      <Contact id="Contact" />
       <Footer />
     </div>
   );

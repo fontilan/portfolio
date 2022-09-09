@@ -1,4 +1,4 @@
-const Socials = ({ id }: { id: string }) => {
+const Contact = ({ id }: { id: string }) => {
   const ListItem = ({
     activity,
     websiteName,
@@ -22,7 +22,7 @@ const Socials = ({ id }: { id: string }) => {
     <>
       <article className="card">
         <section className="card__title">
-          <h3 id={id}>Socials</h3>
+          <h3 id={id}>Contact</h3>
         </section>
         <section className="card__items">
           <p>
@@ -63,4 +63,4 @@ const Socials = ({ id }: { id: string }) => {
   );
 };
 
-export default Socials;
+export default Contact;
