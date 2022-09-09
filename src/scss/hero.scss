@@ -1,3 +1,32 @@
+@use './colors.scss' as *;
+
 .hero {
+  display: flex;
   margin-bottom: 7.5em;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  column-gap: 1em;
+
+  > li {
+    list-style-type: none;
+
+    > a {
+      background-color: $color-mono-0;
+      padding: 0.25em;
+      border-radius: 0.25em;
+      color: $color-mono-3;
+      text-decoration: none;
+      border: 1px solid transparent;
+      transition: border-color 0.25s;
+
+      &:hover {
+        color: $color-mono-4;
+        border-color: $color-green-7;
+      }
+    }
+  }
 }

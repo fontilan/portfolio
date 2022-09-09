@@ -183,7 +183,31 @@ h5 {
 }
 
 .hero {
+  display: flex;
   margin-bottom: 7.5em;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  column-gap: 1em;
+}
+.navigation > li {
+  list-style-type: none;
+}
+.navigation > li > a {
+  background-color: #fcfcfc;
+  padding: 0.25em;
+  border-radius: 0.25em;
+  color: #42425a;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: border-color 0.25s;
+}
+.navigation > li > a:hover {
+  color: #20123a;
+  border-color: #068989;
 }
 
 .sidebar {
