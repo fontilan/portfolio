@@ -14,14 +14,14 @@
   justify-content: flex-end;
 
   &__title {
-    width: 30%;
     flex-shrink: 0;
+    width: 30%;
   }
 
   &__items {
+    flex-shrink: 4;
     margin-left: 3em;
     width: 70%;
-    flex-shrink: 4;
   }
 
   p:nth-child(2) {
