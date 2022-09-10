@@ -4,7 +4,7 @@ $size: min(30vw, 80vh);
 
 .blob {
   background: linear-gradient($color-mono-0, $color-mono-0) padding-box,
-    linear-gradient(to right, $color-green-8, $color-green-4) border-box;
+    linear-gradient(to right, $color-violet-7, $color-violet-2) border-box;
   border-radius: 50%;
   border: calc($size/6) solid #0000;
   height: $size;

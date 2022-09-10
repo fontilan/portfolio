@@ -55,7 +55,7 @@ h6 {
 }
 
 .blob {
-  background: linear-gradient(#fcfcfc, #fcfcfc) padding-box, linear-gradient(to right, #005e5d, #53febe) border-box;
+  background: linear-gradient(#fcfcfc, #fcfcfc) padding-box, linear-gradient(to right, #582acb, #cc9eff) border-box;
   border-radius: 50%;
   border: calc(min(30vw, 80vh) / 6) solid rgba(0, 0, 0, 0);
   height: min(30vw, 80vh);
@@ -67,7 +67,7 @@ h6 {
 }
 
 .splash {
-  color: #2bc4a2;
+  color: #7543e3;
   font-weight: 400;
 }
 
@@ -109,7 +109,7 @@ h6 {
   margin-left: 1em;
 }
 .headline-with-year__year {
-  background: #005e5d;
+  background: #582acb;
   border-radius: 0.25em;
   color: #fcfcfc;
   flex-shrink: 0;
@@ -207,7 +207,7 @@ h5 {
   transition: border-color 0.25s;
 }
 .hero__navigation > li > a:hover {
-  border-color: #068989;
+  border-color: #582acb;
   color: #20123a;
 }
 .hero__button {
@@ -217,7 +217,7 @@ h5 {
 }
 
 .sidebar {
-  background-color: #083f37;
+  background-color: #321c64;
   display: flex;
   flex-direction: column;
   height: 100%;

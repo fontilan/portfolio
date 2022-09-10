@@ -1,7 +1,7 @@
 @use './colors.scss' as *;
 
 .splash {
-  color: $color-green-6;
+  color: $color-violet-6;
   font-weight: 400;
 }
 
@@ -50,7 +50,7 @@
   }
 
   &__year {
-    background: $color-green-8;
+    background: $color-violet-7;
     border-radius: 0.25em;
     color: $color-mono-0;
     flex-shrink: 0;
