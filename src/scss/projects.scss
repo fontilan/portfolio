@@ -10,8 +10,15 @@
   }
 
   &__image {
+    border-radius: 0.125em;
+    filter: grayscale(0.8);
     margin-top: 1em;
+    transition: filter 0.5s;
     width: 250px;
+
+    &:hover {
+      filter: none;
+    }
   }
 
   &__links {
@@ -24,7 +31,6 @@
     > a {
       border-radius: 0.125em;
       border: 1px solid transparent;
-      border: 2px solid $color-violet-2;
       color: inherit;
       padding: 0.25em;
       text-decoration: none;

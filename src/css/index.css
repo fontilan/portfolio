@@ -223,8 +223,14 @@ h5 {
   text-decoration: solid underline #cc9eff 2px;
 }
 .project__image {
+  border-radius: 0.125em;
+  filter: grayscale(0.8);
   margin-top: 1em;
+  transition: filter 0.5s;
   width: 250px;
+}
+.project__image:hover {
+  filter: none;
 }
 .project__links {
   display: flex;
@@ -236,7 +242,6 @@ h5 {
 .project__links > a {
   border-radius: 0.125em;
   border: 1px solid transparent;
-  border: 2px solid #cc9eff;
   color: inherit;
   padding: 0.25em;
   text-decoration: none;
