@@ -1,0 +1,43 @@
+@use './colors.scss' as *;
+
+.project {
+  &__main {
+    display: flex;
+  }
+
+  &__name {
+    text-decoration: solid underline $color-violet-2 2px;
+  }
+
+  &__image {
+    margin-top: 1em;
+    width: 250px;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1em;
+    row-gap: 1em;
+
+    > a {
+      border-radius: 0.125em;
+      border: 1px solid transparent;
+      border: 2px solid $color-violet-2;
+      color: inherit;
+      padding: 0.25em;
+      text-decoration: none;
+      transition: border 0.5s;
+
+      &:hover {
+        border: 1px solid $color-violet-7;
+        color: $color-mono-4;
+      }
+    }
+  }
+
+  &__description {
+    margin-top: 1em;
+  }
+}

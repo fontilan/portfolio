@@ -216,6 +216,40 @@ h5 {
   display: none;
 }
 
+.project__main {
+  display: flex;
+}
+.project__name {
+  text-decoration: solid underline #cc9eff 2px;
+}
+.project__image {
+  margin-top: 1em;
+  width: 250px;
+}
+.project__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1em;
+  row-gap: 1em;
+}
+.project__links > a {
+  border-radius: 0.125em;
+  border: 1px solid transparent;
+  border: 2px solid #cc9eff;
+  color: inherit;
+  padding: 0.25em;
+  text-decoration: none;
+  transition: border 0.5s;
+}
+.project__links > a:hover {
+  border: 1px solid #582acb;
+  color: #20123a;
+}
+.project__description {
+  margin-top: 1em;
+}
+
 .sidebar {
   background-color: #321c64;
   display: flex;
