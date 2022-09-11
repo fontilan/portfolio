@@ -130,7 +130,7 @@ html {
   }
 }
 footer {
-  color: #42425a;
+  color: #575775;
   padding: 2em;
   text-align: center;
 }
@@ -141,7 +141,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #20123a;
+  color: #20123b;
   font-family: "Inter", sans-serif;
   line-height: 1;
 }
@@ -154,7 +154,7 @@ h1 {
 }
 
 h2 {
-  color: #42425a;
+  color: #575775;
   font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: -0.125rem;
@@ -176,7 +176,7 @@ h4 {
 }
 
 h5 {
-  color: #42425a;
+  color: #575775;
   font-size: 1.125rem;
   font-style: italic;
   font-weight: 300;
@@ -201,14 +201,14 @@ h5 {
   background-color: #fcfcfc;
   border-radius: 0.25em;
   border: 1px solid transparent;
-  color: #42425a;
+  color: #575775;
   padding: 0.25em;
-  text-decoration: none;
-  transition: border-color 0.25s;
+  text-decoration: underline solid transparent 1px;
+  transition: color 0.4s ease-in-out, text-decoration 0.2s ease-in-out;
 }
 .hero__navigation > li > a:hover {
-  border-color: #582acb;
-  color: #20123a;
+  color: #20123b;
+  text-decoration: underline solid #9059ff 1px;
 }
 .hero__button {
   align-items: center;
@@ -218,9 +218,6 @@ h5 {
 
 .project__main {
   display: flex;
-}
-.project__name {
-  text-decoration: solid underline #cc9eff 2px;
 }
 .project__image {
   border-radius: 0.125em;
@@ -237,7 +234,7 @@ h5 {
   flex-direction: column;
   justify-content: center;
   margin-left: 1em;
-  row-gap: 1em;
+  row-gap: 2em;
 }
 .project__links > a {
   border-radius: 0.125em;
@@ -246,10 +243,11 @@ h5 {
   padding: 0.25em;
   text-decoration: none;
   transition: border 0.5s;
+  box-shadow: rgba(88, 42, 203, 0.4) 5px 5px, rgba(88, 42, 203, 0.3) 10px 10px, rgba(88, 42, 203, 0.2) 15px 15px;
 }
 .project__links > a:hover {
-  border: 1px solid #582acb;
-  color: #20123a;
+  border: 1px solid #ac71ff;
+  color: #20123b;
 }
 .project__description {
   margin-top: 1em;
@@ -295,7 +293,7 @@ h5 {
 }
 body {
   background-color: #fcfcfc;
-  color: #42425a;
+  color: #575775;
   display: flex;
   font-family: "Inter", sans-serif;
   justify-content: center;
