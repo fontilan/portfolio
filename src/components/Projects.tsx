@@ -16,6 +16,20 @@ const luscoFusco = {
   ],
 };
 
+// PROJECT - rock-paper-scissors
+const rockPaperScissors = {
+  projectName: 'rock-paper-scissors',
+  websiteLink: 'https://fontilan.github.io/rock-paper-scissors/',
+  githubLink: 'https://github.com/fontilan/rock-paper-scissors',
+  // placeholder image
+  image: 'https://api.lorem.space/image/album',
+  projectDescription: [
+    'I am a chaotic (good) person, so I was thrilled to discover the random() function in JavaScript.',
+    'Initially I wanted to create a coin toss game, but I quickly realized that a 1-in-2 random chance is not gonna be very fun. 1-in-3 however is another story as that would allow you to - for example - play rock-paper-scissors!',
+    'Built with just plain JavaScript, and some CSS styling.',
+  ],
+};
+
 // take in an array (projectDescription) and them map each sentence to a paragraph element.
 const description = (arr: string[]) => {
   return arr.map((sentence: string) => <p>{sentence}</p>);
@@ -36,7 +50,7 @@ const Project = ({
   projectDescription: string[];
 }) => {
   return (
-    <section className="card__items project">
+    <div className="card__items project">
       <h4 className="project__name">{projectName}</h4>
       <div className="project__main">
         <img
@@ -52,7 +66,8 @@ const Project = ({
       <div className="project__description">
         {description(projectDescription)}
       </div>
-    </section>
+      <hr />
+    </div>
   );
 };
 
@@ -63,7 +78,10 @@ const Projects = ({ id }: { id: string }) => {
         <section className="card__title">
           <h3 id={id}>Projects</h3>
         </section>
-        <Project {...luscoFusco} />
+        <section>
+          <Project {...luscoFusco} />
+          <Project {...rockPaperScissors} />
+        </section>
       </article>
       <hr />
     </>
