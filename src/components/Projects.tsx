@@ -50,7 +50,7 @@ const Project = ({
   projectDescription: string[];
 }) => {
   return (
-    <div className="card__items project">
+    <div className="project">
       <h4 className="project__name">{projectName}</h4>
       <div className="project__main">
         <img
@@ -66,7 +66,6 @@ const Project = ({
       <div className="project__description">
         {description(projectDescription)}
       </div>
-      <hr />
     </div>
   );
 };
@@ -78,8 +77,9 @@ const Projects = ({ id }: { id: string }) => {
         <section className="card__title">
           <h3 id={id}>Projects</h3>
         </section>
-        <section>
+        <section className="card__items">
           <Project {...luscoFusco} />
+          <hr />
           <Project {...rockPaperScissors} />
         </section>
       </article>
