@@ -1,6 +1,6 @@
 import About from './components/About';
 import Blobs from './blobs/Blobs';
-import Experience from './components/Experience';
+// import Experience from './components/Experience';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 // import Hobbies from './components/Hobbies';
@@ -16,7 +16,7 @@ function App() {
       <About id="About" />
       {/* <Skills id="Skills" /> */}
       <Projects id="Projects" />
-      <Experience id="Experience" />
+      {/* <Experience id="Experience" /> */}
       {/* <Hobbies id="Hobbies" /> */}
       <Contact id="Contact" />
       <Footer />
