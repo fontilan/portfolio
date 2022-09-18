@@ -7,6 +7,7 @@ $size: min(30vw, 80vh);
     linear-gradient(to right, $color-violet-7, $color-violet-2) border-box;
   border-radius: 50%;
   border: calc($size/6) solid #0000;
+  box-shadow: 0 0px 12px rgba($color: $color-violet-7, $alpha: 0.5);
   height: $size;
   position: absolute;
   right: calc($size/-3);

@@ -58,6 +58,8 @@ h6 {
   background: linear-gradient(#fcfcfc, #fcfcfc) padding-box, linear-gradient(to right, #582acb, #cc9eff) border-box;
   border-radius: 50%;
   border: calc(min(30vw, 80vh) / 6) solid rgba(0, 0, 0, 0);
+  box-shadow: none;
+  box-shadow: 0 0px 12px rgba(88, 42, 203, 0.5);
   height: min(30vw, 80vh);
   position: absolute;
   right: calc(min(30vw, 80vh) / -3);
@@ -221,7 +223,6 @@ h5 {
 }
 .project__image {
   border-radius: 0.125em;
-  filter: grayscale(0.8);
   margin-top: 1em;
   transition: filter 0.5s;
   width: 250px;
