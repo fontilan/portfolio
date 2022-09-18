@@ -7,12 +7,25 @@ const luscoFusco = {
   projectName: 'lusco-fusco',
   websiteLink: 'https://fontilan.github.io/lusco-fusco/',
   githubLink: 'https://github.com/fontilan/lusco-fusco',
-  // placeholder image
-  image: 'https://api.lorem.space/image/album',
+  image:
+    'https://user-images.githubusercontent.com/68748054/189960811-2362dabc-6633-4142-bc9a-6a35a90c38b2.png',
   projectDescription: [
     "I love music, especially discovering new artists and styles. Some time ago I've decided to challenge myself to create a fresh playlist every month. It's a lot of fun and the playlist even gained a few followers.",
     "This is a simple showcase of the playlist, which I also update every month (in a way it's an opportunity to work with colors). It also has a cute light/dark theme switch (with an icon animation that works absolutely not like it's supposed to, but I love it nonetheless).",
-    'Built with React, using SASS and ESLint.',
+    // 'Built with React, using SASS and ESLint.',
+  ],
+};
+
+// PROJECT - tenzies
+const tenzies = {
+  projectName: 'tenzies',
+  websiteLink: 'https://fontilan.github.io/tenzies-game/',
+  githubLink: 'https://github.com/fontilan/tenzies-game',
+  image:
+    'https://user-images.githubusercontent.com/68748054/189958168-fa920864-901c-4da5-b318-9d3a135a6aea.png',
+  projectDescription: [
+    "Built as part of the Bob Ziroll's Learn React Scrimba course.",
+    'Afterwards I have implemented a few additional features: proper dice faces (aka dots), a timer and counter showing how long it took you to win and how many rolls, and also changed the overall colors - now each die has a different color when held.',
   ],
 };
 
@@ -59,8 +72,12 @@ const Project = ({
           alt={`screenshot of the ${projectName} website`}
         />
         <div className="project__links">
-          <a href={websiteLink}>Website</a>
-          <a href={githubLink}>GitHub</a>
+          <a href={websiteLink} target="_blank" rel="noreferrer">
+            Website
+          </a>
+          <a href={githubLink} target="_blank" rel="noreferrer">
+            GitHub
+          </a>
         </div>
       </div>
       <div className="project__description">
@@ -79,6 +96,8 @@ const Projects = ({ id }: { id: string }) => {
         </section>
         <section className="card__items">
           <Project {...luscoFusco} />
+          <hr />
+          <Project {...tenzies} />
           <hr />
           <Project {...rockPaperScissors} />
         </section>
