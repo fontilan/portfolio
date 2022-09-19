@@ -45,7 +45,9 @@ const rockPaperScissors = {
 
 // take in an array (projectDescription) and them map each sentence to a paragraph element.
 const description = (arr: string[]) => {
-  return arr.map((sentence: string) => <p>{sentence}</p>);
+  return arr.map((sentence: string) => (
+    <p key={arr.indexOf(sentence)}>{sentence}</p>
+  ));
 };
 
 // main structure of the component

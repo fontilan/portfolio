@@ -26,13 +26,13 @@ const Contact = ({ id }: { id: string }) => {
         </section>
         <section className="card__items">
           <p>
-            I'm not really a fan of the likes of Facebook, Twitter, Instagram
-            etc. I was once on Google+, guess how that worked out 😎
+            I&apos;m not really a fan of the likes of Facebook, Twitter,
+            Instagram etc. I was once on Google+, guess how that worked out 😎
           </p>
           <p>
             If you want to get to know me a bit, you can check out my profiles
-            on the following websites (oh, and don't be a stranger - feel free
-            to send me a friend invite once you're there).
+            on the following websites (oh, and don&apos;t be a stranger - feel
+            free to send me a friend invite once you&apos;re there).
           </p>
           <ul>
             <ListItem

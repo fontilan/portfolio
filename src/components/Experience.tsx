@@ -55,12 +55,12 @@ const Experience = ({ id }: { id: string }) => {
             <p>
               The De Revolutionibus Books & Café bookstore was established in
               autumn 2013 on the initiative of the Copernicus Center Foundation,
-              which supports interdisciplinary research. The bookstore's
+              which supports interdisciplinary research. The bookstore&apos;s
               strengths include a huge selection of philosophy titles, an
               excellent reportage section and, above all, good, carefully
               selected literature. Independent, niche publishers, sophisticated
-              editorially and graphically designed children's books, all this
-              can be found at Bracka 14 in the 19th century Larisch Palace.
+              editorially and graphically designed children&apos;s books, all
+              this can be found at Bracka 14 in the 19th century Larisch Palace.
             </p>
             <p>As a Bookseller my responsibilities included mainly:</p>
             <ul className="description">
