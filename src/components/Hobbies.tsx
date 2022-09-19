@@ -26,11 +26,11 @@ const Hobbies = ({ id }: { id: string }) => {
             <p>
               My favourites are genre films - horrors, science-fiction,
               thrillers, and action films. I also like cult classics and class B
-              films (aka "midnight flicks") and class Z films (aka "so bad it's
-              good"). I love the 70s and 80s aesthetics and themes, and also the
-              classic 30s German Expressionist vibes. My favourite films of the
-              year 2022 are Everything Everywhere All at Once, The Northman and
-              Watcher.
+              films (aka &quot;midnight flicks&quot;) and class Z films (aka
+              &quot;so bad it&apos;s good&quot;). I love the 70s and 80s
+              aesthetics and themes, and also the classic 30s German
+              Expressionist vibes. My favourite films of the year 2022 are
+              Everything Everywhere All at Once, The Northman and Watcher.
             </p>
             <hr />
           </div>
