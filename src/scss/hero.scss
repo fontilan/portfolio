@@ -17,7 +17,6 @@
       > a {
         background-color: $color-mono-0;
         border-radius: 0.25em;
-        border: 1px solid transparent;
         color: $color-mono-3;
         padding: 0.25em;
         text-decoration: underline solid transparent 1px;
@@ -36,5 +35,15 @@
     display: flex;
     // for now we don't display it, it's there when we're ready to develop the light/dark toggle logic
     display: none;
+  }
+}
+
+.icon-link {
+  display: block;
+  width: 1.5em;
+  fill: $color-mono-3;
+
+  &:hover {
+    fill: $color-mono-4;
   }
 }

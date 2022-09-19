@@ -58,7 +58,6 @@ h6 {
   background: linear-gradient(#fcfcfc, #fcfcfc) padding-box, linear-gradient(to right, #582acb, #cc9eff) border-box;
   border-radius: 50%;
   border: calc(min(30vw, 80vh) / 6) solid rgba(0, 0, 0, 0);
-  box-shadow: none;
   box-shadow: 0 0px 12px rgba(88, 42, 203, 0.5);
   height: min(30vw, 80vh);
   position: absolute;
@@ -202,7 +201,6 @@ h5 {
 .hero__navigation > li > a {
   background-color: #fcfcfc;
   border-radius: 0.25em;
-  border: 1px solid transparent;
   color: #4c4c67;
   padding: 0.25em;
   text-decoration: underline solid transparent 1px;
@@ -216,6 +214,15 @@ h5 {
   align-items: center;
   display: flex;
   display: none;
+}
+
+.icon-link {
+  display: block;
+  width: 1.5em;
+  fill: #4c4c67;
+}
+.icon-link:hover {
+  fill: #20123b;
 }
 
 .project__main {
