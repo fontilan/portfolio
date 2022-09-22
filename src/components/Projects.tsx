@@ -126,9 +126,9 @@ const Projects = ({ id }: { id: string }) => {
           <h3 id={id}>Projects</h3>
         </section>
         <section className="card__items">
-          <Project {...luscoFusco} />
-          <hr />
           <Project {...tenzies} />
+          <hr />
+          <Project {...luscoFusco} />
           <hr />
           <Project {...rockPaperScissors} />
           <hr />
