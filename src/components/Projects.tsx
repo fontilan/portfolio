@@ -1,6 +1,6 @@
 // PROJECT - lusco-fusco
 const luscoFusco = {
-  projectName: 'lusco-fusco',
+  projectName: 'Lusco-fusco',
   websiteLink: 'https://fontilan.github.io/lusco-fusco/',
   githubLink: 'https://github.com/fontilan/lusco-fusco',
   image:
@@ -13,7 +13,7 @@ const luscoFusco = {
 
 // PROJECT - tenzies
 const tenzies = {
-  projectName: 'tenzies',
+  projectName: 'Tenzies',
   websiteLink: 'https://fontilan.github.io/tenzies-game/',
   githubLink: 'https://github.com/fontilan/tenzies-game',
   image:
@@ -27,7 +27,7 @@ const tenzies = {
 
 // PROJECT - rock paper scissors
 const rockPaperScissors = {
-  projectName: 'rock paper scissors',
+  projectName: 'Rock paper scissors',
   websiteLink: 'https://fontilan.github.io/rock-paper-scissors/',
   githubLink: 'https://github.com/fontilan/rock-paper-scissors',
   image:
