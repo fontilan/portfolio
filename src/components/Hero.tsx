@@ -24,13 +24,21 @@ const Hero = () => {
           <a href="#Contact">contact</a>
         </li>
         <li>
-          <a className="icon-link" href="#Contact">
-            {linkedInIcon}
+          <a
+            className="icon-link"
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/fontilan">
+            {githubIcon}
           </a>
         </li>
         <li>
-          <a className="icon-link" href="#Contact">
-            {githubIcon}
+          <a
+            className="icon-link"
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/wojciech-gmuzdek/">
+            {linkedInIcon}
           </a>
         </li>
       </ul>
