@@ -31,7 +31,7 @@ const Contact = ({ id }: { id: string }) => {
           </p>
           <p>
             If you want to get to know me a bit, you can check out my profiles
-            on the following websites (oh, and don&apos;t be a stranger - feel
+            on the following websites (oh, and don&apos;t be a stranger — feel
             free to send me a friend invite once you&apos;re there).
           </p>
           <ul>
