@@ -1,7 +1,3 @@
-// import lusco from '../images/lusco.webp';
-
-// each project will be stored as a separate object
-
 // PROJECT - lusco-fusco
 const luscoFusco = {
   projectName: 'lusco-fusco',
@@ -29,7 +25,7 @@ const tenzies = {
   ],
 };
 
-// PROJECT - rock-paper-scissors
+// PROJECT - rock paper scissors
 const rockPaperScissors = {
   projectName: 'rock paper scissors',
   websiteLink: 'https://fontilan.github.io/rock-paper-scissors/',
@@ -42,6 +38,24 @@ const rockPaperScissors = {
   ],
 };
 
+// PROJECT (SMALL) - palindrome checker
+const palindrome = {
+  projectName: 'Palindrome checker',
+  projectLink: 'https://github.com/fontilan/palindrome',
+};
+
+// PROJECT (SMALL) - hitomezashi
+const hitomezashi = {
+  projectName: 'Hitomezashi pattern generator',
+  projectLink: 'https://github.com/fontilan/hitomezashi',
+};
+
+// PROJECT (SMALL) - roman numerals
+const romanNumerals = {
+  projectName: 'Roman numerals converter',
+  projectLink: 'https://github.com/fontilan/roman-numerals',
+};
+
 // take in an array (projectDescription) and them map each sentence to a paragraph element.
 const description = (arr: string[]) => {
   return arr.map((sentence: string) => (
@@ -49,19 +63,18 @@ const description = (arr: string[]) => {
   ));
 };
 
-// main structure of the component
 const Project = ({
-  projectName,
-  websiteLink,
   githubLink,
   image,
   projectDescription,
+  projectName,
+  websiteLink,
 }: {
-  projectName: string;
-  websiteLink: string;
   githubLink: string;
   image: string;
   projectDescription: string[];
+  projectName: string;
+  websiteLink: string;
 }) => {
   return (
     <div className="project">
@@ -88,6 +101,23 @@ const Project = ({
   );
 };
 
+const ProjectSmall = ({
+  projectLink,
+  projectName,
+}: {
+  projectLink: string;
+  projectName: string;
+}) => {
+  return (
+    <div>
+      <h5>{projectName}</h5>
+      <a href={projectLink} target="_blank" rel="noreferrer">
+        {projectLink}
+      </a>
+    </div>
+  );
+};
+
 const Projects = ({ id }: { id: string }) => {
   return (
     <>
@@ -101,6 +131,14 @@ const Projects = ({ id }: { id: string }) => {
           <Project {...tenzies} />
           <hr />
           <Project {...rockPaperScissors} />
+          <hr />
+          <h4>Other, smaller projects</h4>
+          <br />
+          <ProjectSmall {...hitomezashi} />
+          <br />
+          <ProjectSmall {...palindrome} />
+          <br />
+          <ProjectSmall {...romanNumerals} />
         </section>
       </article>
       <hr />
