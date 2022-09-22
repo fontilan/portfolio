@@ -19,7 +19,7 @@ const About = ({ id }: { id: string }) => {
             like to join a passionate creative team ready to share their
             knowledge with me as I would love to learn all the best industry
             practices. Through my work as a frontend developer I will strive to
-            make the internet more awesome and accessible.
+            make the internet better, more open and accessible for everyone.
           </p>
         </section>
       </article>
