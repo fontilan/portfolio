@@ -12,7 +12,6 @@ const luscoFusco = {
   projectDescription: [
     "I love music, especially discovering new artists and styles. Some time ago I've decided to challenge myself to create a fresh playlist every month. It's a lot of fun and the playlist even gained a few followers.",
     "This is a simple showcase of the playlist, which I also update every month (in a way it's an opportunity to work with colors). It also has a cute light/dark theme switch (with an icon animation that works absolutely not like it's supposed to, but I love it nonetheless).",
-    // 'Built with React, using SASS and ESLint.',
   ],
 };
 
@@ -25,21 +24,21 @@ const tenzies = {
     'https://user-images.githubusercontent.com/68748054/189958168-fa920864-901c-4da5-b318-9d3a135a6aea.png',
   projectDescription: [
     "Built as part of the Bob Ziroll's Learn React Scrimba course.",
-    'Afterwards I have implemented a few additional features: proper dice faces (aka dots), a timer and counter showing how long it took you to win and how many rolls, and also changed the overall colors - now each die has a different color when held.',
+    'Afterwards I have implemented a few additional features: proper dice faces (aka dots), a timer and counter showing how long it took you to win and how many rolls, and also changed the overall colors — now each die has a different color when held.',
+    'I have also implemented the use of Local Storage, so that the best scores are persistent between page refreshes. I then refactored the code in accordance with the Airbnb JavaScript Style Guide.',
   ],
 };
 
 // PROJECT - rock-paper-scissors
 const rockPaperScissors = {
-  projectName: 'rock-paper-scissors',
+  projectName: 'rock paper scissors',
   websiteLink: 'https://fontilan.github.io/rock-paper-scissors/',
   githubLink: 'https://github.com/fontilan/rock-paper-scissors',
-  // placeholder image
-  image: 'https://api.lorem.space/image/album',
+  image:
+    'https://user-images.githubusercontent.com/68748054/191744964-f6b9d8c3-30ef-442e-aae0-bb265726c1df.png',
   projectDescription: [
     'I am a chaotic (good) person, so I was thrilled to discover the random() function in JavaScript.',
-    'Initially I wanted to create a coin toss game, but I quickly realized that a 1-in-2 random chance is not gonna be very fun. 1-in-3 however is another story as that would allow you to - for example - play rock-paper-scissors!',
-    'Built with just plain JavaScript, and some CSS styling.',
+    'Initially I wanted to create a coin toss game, but I quickly realized that a 1-in-2 random chance is not gonna be very fun. 1-in-3 however is another story as that would allow you to — for example — play rock paper scissors!',
   ],
 };
 
