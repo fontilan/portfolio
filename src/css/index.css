@@ -282,7 +282,7 @@ h5 {
   text-decoration: none;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
   .app {
     width: 100vw;
   }
@@ -298,6 +298,19 @@ h5 {
     flex-shrink: 1;
     margin-left: 0;
     width: 100%;
+  }
+  .project__main {
+    display: flex;
+    flex-direction: column;
+  }
+  .project__image {
+    margin: 1em auto;
+  }
+  .project__links {
+    flex-direction: row;
+    margin-left: 0;
+    column-gap: 3em;
+    margin-bottom: 0.5em;
   }
 }
 body {

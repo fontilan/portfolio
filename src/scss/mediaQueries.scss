@@ -1,4 +1,4 @@
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
   .app {
     width: 100vw;
   }
@@ -16,6 +16,24 @@
       flex-shrink: 1;
       margin-left: 0;
       width: 100%;
+    }
+  }
+
+  .project {
+    &__main {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__image {
+      margin: 1em auto;
+    }
+
+    &__links {
+      flex-direction: row;
+      margin-left: 0;
+      column-gap: 3em;
+      margin-bottom: 0.5em;
     }
   }
 }
