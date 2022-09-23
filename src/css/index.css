@@ -130,11 +130,23 @@ html {
     font-family: "Inter var", sans-serif;
   }
 }
-footer {
+.footer {
+  align-items: center;
   color: #4c4c67;
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 3em;
-  padding: 2em;
+  padding: 2em 0.5em;
   text-align: center;
+}
+.footer > p {
+  margin-bottom: 0;
+}
+.footer__icons {
+  align-items: center;
+  column-gap: 1em;
+  display: flex;
+  justify-content: center;
 }
 
 h1,
@@ -291,8 +303,8 @@ h5 {
     padding: 0.5em;
   }
   .card__title {
-    width: 100%;
     margin-bottom: 1em;
+    width: 100%;
   }
   .card__items {
     flex-shrink: 1;
@@ -307,10 +319,14 @@ h5 {
     margin: 1em auto;
   }
   .project__links {
-    flex-direction: row;
-    margin-left: 0;
     column-gap: 3em;
+    flex-direction: row;
     margin-bottom: 0.5em;
+    margin-left: 0;
+  }
+  .footer {
+    align-items: baseline;
+    flex-direction: column;
   }
 }
 body {

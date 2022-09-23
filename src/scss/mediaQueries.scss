@@ -8,8 +8,8 @@
     padding: 0.5em;
 
     &__title {
-      width: 100%;
       margin-bottom: 1em;
+      width: 100%;
     }
 
     &__items {
@@ -30,10 +30,15 @@
     }
 
     &__links {
-      flex-direction: row;
-      margin-left: 0;
       column-gap: 3em;
+      flex-direction: row;
       margin-bottom: 0.5em;
+      margin-left: 0;
     }
+  }
+
+  .footer {
+    align-items: baseline;
+    flex-direction: column;
   }
 }

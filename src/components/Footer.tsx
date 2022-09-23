@@ -3,10 +3,10 @@ import linkedInIcon from '../icons/linkedInIcon';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <p>&copy;Wojciech Gmuzdek</p>
       <p>Last updated September 2022</p>
-      <div>
+      <div className="footer__icons">
         <a
           className="icon-link"
           target="_blank"

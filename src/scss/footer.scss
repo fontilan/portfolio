@@ -1,8 +1,22 @@
 @use './colors.scss' as *;
 
-footer {
+.footer {
+  align-items: center;
   color: $color-mono-3;
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 3em;
-  padding: 2em;
+  padding: 2em 0.5em;
   text-align: center;
+
+  > p {
+    margin-bottom: 0;
+  }
+
+  &__icons {
+    align-items: center;
+    column-gap: 1em;
+    display: flex;
+    justify-content: center;
+  }
 }
