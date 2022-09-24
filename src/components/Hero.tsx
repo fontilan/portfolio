@@ -6,15 +6,6 @@ const Hero = () => {
     return (
       <ul className="hero__navigation">
         <li>
-          <a href="#Projects">projects</a>
-        </li>
-        <li>
-          <a href="#Experience">experience</a>
-        </li>
-        <li>
-          <a href="#Contact">contact</a>
-        </li>
-        <li>
           <a
             className="icon-link"
             target="_blank"
