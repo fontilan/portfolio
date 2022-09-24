@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>&copy;Wojciech Gmuzdek</p>
-      <p>Last updated September 2022</p>
+      <p>September 2022</p>
       <div className="footer__icons">
         <a
           className="icon-link"
