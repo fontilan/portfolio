@@ -149,6 +149,32 @@ html {
   justify-content: center;
 }
 
+.form__item {
+  width: 100%;
+  display: flex;
+  column-gap: 1em;
+}
+.form__item--label {
+  width: 40%;
+}
+.form__item--input {
+  padding-inline: 0.5em;
+  width: 100%;
+  border-radius: 0.125em;
+  border: 1px solid #d9bfff;
+}
+.form__item--input:focus {
+  border: 1px solid transparent;
+}
+.form__button {
+  background-color: #7543e3;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.25em;
+  padding: 0.5em;
+  color: #fcfcfc;
+}
+
 h1,
 h2,
 h3,
