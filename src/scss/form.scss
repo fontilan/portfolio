@@ -1,0 +1,33 @@
+@use './colors.scss' as *;
+
+.form {
+  &__item {
+    width: 100%;
+    display: flex;
+    column-gap: 1em;
+    // justify-content: space-between;
+
+    &--label {
+      width: 40%;
+    }
+
+    &--input {
+      padding-inline: 0.5em;
+      width: 100%;
+      border-radius: 0.125em;
+      border: 1px solid $color-violet-1;
+      &:focus {
+        border: 1px solid transparent;
+      }
+    }
+  }
+
+  &__button {
+    background-color: $color-violet-6;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.25em;
+    padding: 0.5em;
+    color: $color-mono-0;
+  }
+}

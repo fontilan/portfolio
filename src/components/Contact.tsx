@@ -6,25 +6,24 @@ const Contact = ({ id }: { id: string }) => {
           <h3 id={id}>Contact</h3>
         </section>
         <section className="card__items">
-          <form name="contact" method="POST">
+          <form className="form" name="contact" method="POST">
             <input type="hidden" name="form-name" value="contact" />
-            <p>
-              <label>
-                Your Name: <input type="text" name="name" />
-              </label>
+            <p className="form__item">
+              <label className="form__item--label">Your Name:</label>
+              <input className="form__item--input" type="text" name="name" />
+            </p>
+            <p className="form__item">
+              <label className="form__item--label">Your Email: </label>
+              <input className="form__item--input" type="email" name="email" />
+            </p>
+            <p className="form__item">
+              <label className="form__item--label">Message:</label>
+              <textarea className="form__item--input" name="message"></textarea>
             </p>
             <p>
-              <label>
-                Your Email: <input type="email" name="email" />
-              </label>
-            </p>
-            <p>
-              <label>
-                Message: <textarea name="message"></textarea>
-              </label>
-            </p>
-            <p>
-              <button type="submit">Send</button>
+              <button className="form__button" type="submit">
+                Send
+              </button>
             </p>
           </form>
         </section>
