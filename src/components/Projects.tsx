@@ -81,6 +81,8 @@ const Project = ({
       <h4 className="project__name">{projectName}</h4>
       <div className="project__main">
         <img
+          width="250px"
+          height="250px"
           className="project__image"
           src={image}
           alt={`screenshot of the ${projectName} website`}
