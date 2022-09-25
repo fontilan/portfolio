@@ -9,16 +9,35 @@ const Contact = ({ id }: { id: string }) => {
           <form className="form" name="contact" method="POST">
             <input type="hidden" name="form-name" value="contact" />
             <p className="form__item">
-              <label className="form__item--label">Your Name:</label>
-              <input className="form__item--input" type="text" name="name" />
+              <label htmlFor="name" className="form__item--label">
+                Your Name:
+              </label>
+              <input
+                className="form__item--input"
+                type="text"
+                name="name"
+                id="name"
+              />
             </p>
             <p className="form__item">
-              <label className="form__item--label">Your Email: </label>
-              <input className="form__item--input" type="email" name="email" />
+              <label htmlFor="email" className="form__item--label">
+                Your Email:
+              </label>
+              <input
+                className="form__item--input"
+                type="email"
+                name="email"
+                id="email"
+              />
             </p>
             <p className="form__item">
-              <label className="form__item--label">Message:</label>
-              <textarea className="form__item--input" name="message"></textarea>
+              <label htmlFor="message" className="form__item--label">
+                Message:
+              </label>
+              <textarea
+                className="form__item--input"
+                name="message"
+                id="message"></textarea>
             </p>
             <p>
               <button className="form__button" type="submit">
