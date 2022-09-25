@@ -8,6 +8,7 @@ const Footer = () => {
       <p>September 2022</p>
       <div className="footer__icons">
         <a
+          aria-label="GitHub profile page"
           className="icon-link"
           target="_blank"
           rel="noreferrer"
@@ -15,6 +16,7 @@ const Footer = () => {
           {githubIcon}
         </a>
         <a
+          aria-label="LinkedIn profile page"
           className="icon-link"
           target="_blank"
           rel="noreferrer"

@@ -7,6 +7,7 @@ const Hero = () => {
       <ul className="hero__navigation">
         <li>
           <a
+            aria-label="GitHub profile page"
             className="icon-link"
             target="_blank"
             rel="noreferrer"
@@ -16,6 +17,7 @@ const Hero = () => {
         </li>
         <li>
           <a
+            aria-label="LinkedIn profile page"
             className="icon-link"
             target="_blank"
             rel="noreferrer"
