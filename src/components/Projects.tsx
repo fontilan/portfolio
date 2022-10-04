@@ -1,7 +1,7 @@
 // PROJECT - lusco-fusco
 const luscoFusco = {
   projectName: 'Lusco-fusco',
-  websiteLink: 'https://fontilan.github.io/lusco-fusco/',
+  websiteLink: 'https://lusco-fusco.netlify.app/',
   githubLink: 'https://github.com/fontilan/lusco-fusco',
   image:
     'https://user-images.githubusercontent.com/68748054/189960811-2362dabc-6633-4142-bc9a-6a35a90c38b2.png',
