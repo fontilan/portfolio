@@ -111,7 +111,7 @@ const ProjectSmall = ({
   projectName: string;
 }) => {
   return (
-    <div>
+    <div className="project-small">
       <h5>{projectName}</h5>
       <a href={projectLink} target="_blank" rel="noreferrer">
         {projectLink}
