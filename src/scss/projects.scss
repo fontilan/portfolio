@@ -44,3 +44,14 @@
     margin-top: 1em;
   }
 }
+
+.project-small {
+  > a {
+    color: $color-violet-6;
+    font-weight: 500;
+
+    &:visited {
+      color: $color-violet-9;
+    }
+  }
+}

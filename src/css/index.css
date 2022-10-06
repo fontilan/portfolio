@@ -301,6 +301,14 @@ h5 {
   margin-top: 1em;
 }
 
+.project-small > a {
+  color: #7543e3;
+  font-weight: 500;
+}
+.project-small > a:visited {
+  color: #321c64;
+}
+
 .sidebar {
   background-color: #321c64;
   display: flex;
