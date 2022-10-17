@@ -11,7 +11,7 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="app">
+    <main className="app">
       <Blobs />
       <Hero />
       <About id="About" />
@@ -22,7 +22,7 @@ function App() {
       {/* <Socials id="Socials" /> */}
       <Contact id="Contact" />
       <Footer />
-    </div>
+    </main>
   );
 }
 
