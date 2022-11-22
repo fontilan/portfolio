@@ -2,10 +2,12 @@ import githubIcon from '../icons/githubIcon';
 import linkedInIcon from '../icons/linkedInIcon';
 
 const Footer = () => {
+  const currentMonth = new Date().toLocaleString('default', { month: 'long' });
+
   return (
     <footer className="footer">
       <p>&copy;Wojciech Gmuzdek</p>
-      <p>October 2022</p>
+      <p>{currentMonth} 2022</p>
       <div className="footer__icons">
         <a
           aria-label="GitHub profile page"
