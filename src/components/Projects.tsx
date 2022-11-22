@@ -56,6 +56,12 @@ const romanNumerals = {
   projectLink: 'https://github.com/fontilan/roman-numerals',
 };
 
+// PROJECT (SMALL) - caesar's cipher
+const caesarCipher = {
+  projectName: "Caesar's cipher",
+  projectLink: 'https://github.com/fontilan/rot13-cipher',
+};
+
 // take in an array (projectDescription) and them map each sentence to a paragraph element.
 const description = (arr: string[]) => {
   return arr.map((sentence: string) => (
@@ -141,6 +147,8 @@ const Projects = ({ id }: { id: string }) => {
           <ProjectSmall {...palindrome} />
           <br />
           <ProjectSmall {...romanNumerals} />
+          <br />
+          <ProjectSmall {...caesarCipher} />
         </section>
       </article>
       <hr />
