@@ -25,6 +25,19 @@ const tenzies = {
   ],
 };
 
+// PROJECT - quizzical
+const quizzical = {
+  projectName: 'Quizzical',
+  websiteLink: 'https://quizzical-fontilan.netlify.app/',
+  githubLink: 'https://github.com/fontilan/quizzical',
+  image:
+    'https://user-images.githubusercontent.com/68748054/210275152-9f86b1f0-60a1-4d54-b31a-d4cf270f4bea.png',
+  projectDescription: [
+    "Solo project of the Bob Ziroll's Learn React for free Scrimba course. Built completely from scratch based on a Figma design.",
+    'I have adjusted the layout to better fit small screens and also have a few more ideas to make it even better. Stay tuned!',
+  ],
+};
+
 // PROJECT - rock paper scissors
 const rockPaperScissors = {
   projectName: 'Rock paper scissors',
@@ -134,6 +147,8 @@ const Projects = ({ id }: { id: string }) => {
           <h3 id={id}>Projects</h3>
         </section>
         <section className="card__items">
+          <Project {...quizzical} />
+          <hr />
           <Project {...tenzies} />
           <hr />
           <Project {...luscoFusco} />
