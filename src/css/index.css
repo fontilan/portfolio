@@ -189,30 +189,30 @@ h6 {
 
 h1 {
   font-family: "Inter", sans-serif;
-  font-size: 2.5rem;
-  font-weight: 500;
+  font-size: 3rem;
+  font-weight: 600;
   letter-spacing: -0.2rem;
 }
 
 h2 {
   color: #4c4c67;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 400;
   letter-spacing: -0.125rem;
   margin-top: 0.25em;
 }
 
 h3 {
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1.75rem;
+  font-weight: 600;
   letter-spacing: -0.1rem;
   line-height: 1.125;
   position: relative;
 }
 
 h4 {
-  font-size: 1.25rem;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 500;
   letter-spacing: -0.05rem;
 }
 
@@ -365,6 +365,7 @@ body {
   color: #4c4c67;
   display: flex;
   font-family: "Inter", sans-serif;
+  font-size: 18px;
   justify-content: center;
   overflow-x: hidden;
   padding: 4em;
