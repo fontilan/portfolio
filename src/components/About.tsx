@@ -8,9 +8,9 @@ const About = ({ id }: { id: string }) => {
         <section className="card__items">
           <p>
             Philosophy graduate of the Jagiellonian University with over 5 years
-            of professional experience in the field of customer service and
-            almost 2 years in administration/accounting. My priority in any work
-            is improving my qualifications, acquiring new knowledge and building
+            of professional experience in the field of customer service and over
+            2 years in administration and accounting. My priority in any work is
+            improving my qualifications, acquiring new knowledge and building
             positive relations with others. I enjoy creative problem solving and
             finding new ways to optimize my workflow.
           </p>
