@@ -2,8 +2,8 @@ import githubIcon from '../icons/githubIcon';
 import linkedInIcon from '../icons/linkedInIcon';
 
 const Footer = () => {
-  const currentMonth = new Date().toLocaleString('default', { month: 'long' });
-  const currentYear = new Date().toLocaleString('default', { year: 'numeric' });
+  const currentMonth = new Date().toLocaleString('en-GB', { month: 'long' });
+  const currentYear = new Date().toLocaleString('en-GB', { year: 'numeric' });
 
   return (
     <footer className="footer">
