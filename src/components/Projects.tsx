@@ -1,4 +1,6 @@
-// PROJECT - lusco-fusco
+/*
+BIGGER PROJECTS
+*/
 const luscoFusco = {
   projectName: 'Lusco-fusco',
   websiteLink: 'https://lusco-fusco.netlify.app/',
@@ -11,7 +13,6 @@ const luscoFusco = {
   ],
 };
 
-// PROJECT - tenzies
 const tenzies = {
   projectName: 'Tenzies',
   websiteLink: 'https://fontilan.github.io/tenzies-game/',
@@ -25,7 +26,6 @@ const tenzies = {
   ],
 };
 
-// PROJECT - quizzical
 const quizzical = {
   projectName: 'Quizzical',
   websiteLink: 'https://quizzical-fontilan.netlify.app/',
@@ -33,12 +33,11 @@ const quizzical = {
   image:
     'https://user-images.githubusercontent.com/68748054/210275152-9f86b1f0-60a1-4d54-b31a-d4cf270f4bea.png',
   projectDescription: [
-    "Solo project of the Bob Ziroll's Learn React for free Scrimba course. Built completely from scratch based on a Figma design.",
+    "Solo project of the Bob Ziroll's Learn React Scrimba course. Built completely from scratch based on a Figma design.",
     'I have adjusted the layout to better fit small screens and also have a few more ideas to make it even better. Stay tuned!',
   ],
 };
 
-// PROJECT - rock paper scissors
 const rockPaperScissors = {
   projectName: 'Rock paper scissors',
   websiteLink: 'https://fontilan.github.io/rock-paper-scissors/',
@@ -51,25 +50,24 @@ const rockPaperScissors = {
   ],
 };
 
-// PROJECT (SMALL) - palindrome checker
+/*
+SMALLER PROJECTS
+*/
 const palindrome = {
   projectName: 'Palindrome checker',
   projectLink: 'https://github.com/fontilan/palindrome',
 };
 
-// PROJECT (SMALL) - hitomezashi
 const hitomezashi = {
   projectName: 'Hitomezashi pattern generator',
   projectLink: 'https://github.com/fontilan/hitomezashi',
 };
 
-// PROJECT (SMALL) - roman numerals
 const romanNumerals = {
   projectName: 'Roman numerals converter',
   projectLink: 'https://github.com/fontilan/roman-numerals',
 };
 
-// PROJECT (SMALL) - caesar's cipher
 const caesarCipher = {
   projectName: "Caesar's cipher",
   projectLink: 'https://github.com/fontilan/rot13-cipher',
@@ -118,6 +116,7 @@ const Project = ({
       <div className="project__description">
         {description(projectDescription)}
       </div>
+      <hr />
     </div>
   );
 };
@@ -131,6 +130,7 @@ const ProjectSmall = ({
 }) => {
   return (
     <div className="project-small">
+      <br />
       <h5>{projectName}</h5>
       <a href={projectLink} target="_blank" rel="noreferrer">
         {projectLink}
@@ -148,21 +148,13 @@ const Projects = ({ id }: { id: string }) => {
         </section>
         <section className="card__items">
           <Project {...quizzical} />
-          <hr />
           <Project {...tenzies} />
-          <hr />
           <Project {...luscoFusco} />
-          <hr />
           <Project {...rockPaperScissors} />
-          <hr />
           <h4>Other, smaller projects</h4>
-          <br />
           <ProjectSmall {...hitomezashi} />
-          <br />
           <ProjectSmall {...palindrome} />
-          <br />
           <ProjectSmall {...romanNumerals} />
-          <br />
           <ProjectSmall {...caesarCipher} />
         </section>
       </article>
