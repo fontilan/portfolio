@@ -147,15 +147,19 @@ const Projects = ({ id }: { id: string }) => {
           <h3 id={id}>Projects</h3>
         </section>
         <section className="card__items">
-          <Project {...quizzical} />
-          <Project {...tenzies} />
-          <Project {...luscoFusco} />
-          <Project {...rockPaperScissors} />
-          <h4>Other, smaller projects</h4>
-          <ProjectSmall {...hitomezashi} />
-          <ProjectSmall {...palindrome} />
-          <ProjectSmall {...romanNumerals} />
-          <ProjectSmall {...caesarCipher} />
+          <section>
+            <Project {...quizzical} />
+            <Project {...tenzies} />
+            <Project {...luscoFusco} />
+            <Project {...rockPaperScissors} />
+          </section>
+          <section>
+            <h4>Other, smaller projects</h4>
+            <ProjectSmall {...hitomezashi} />
+            <ProjectSmall {...palindrome} />
+            <ProjectSmall {...romanNumerals} />
+            <ProjectSmall {...caesarCipher} />
+          </section>
         </section>
       </article>
       <hr />
