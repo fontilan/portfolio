@@ -1,6 +1,6 @@
-/*
-BIGGER PROJECTS
-*/
+//
+// BIGGER PROJECTS
+//
 const luscoFusco = {
   projectName: 'Lusco-fusco',
   websiteLink: 'https://lusco-fusco.netlify.app/',
@@ -50,9 +50,9 @@ const rockPaperScissors = {
   ],
 };
 
-/*
-SMALLER PROJECTS
-*/
+//
+// SMALLER PROJECTS
+//
 const palindrome = {
   projectName: 'Palindrome checker',
   projectLink: 'https://github.com/fontilan/palindrome',
@@ -73,6 +73,9 @@ const caesarCipher = {
   projectLink: 'https://github.com/fontilan/rot13-cipher',
 };
 
+//
+// PROJECTS TEMPLATES
+//
 // take in an array (projectDescription) and them map each sentence to a paragraph element.
 const description = (arr: string[]) => {
   return arr.map((sentence: string) => (
@@ -139,6 +142,9 @@ const ProjectSmall = ({
   );
 };
 
+//
+// MAIN COMPONENT
+//
 const Projects = ({ id }: { id: string }) => {
   return (
     <>
