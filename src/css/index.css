@@ -253,7 +253,6 @@ h5 {
 }
 .hero__button {
   align-items: center;
-  display: flex;
   display: none;
 }
 
