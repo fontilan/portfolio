@@ -22,7 +22,7 @@ const tenzies = {
   projectDescription: [
     "Built as part of the Bob Ziroll's Learn React Scrimba course.",
     'Afterwards I have implemented a few additional features: proper dice faces (aka dots), a timer and counter showing how long it took you to win and how many rolls, and also changed the overall colors — now each die has a different color when held.',
-    'I have also implemented the use of Local Storage, so that the best scores are persistent between page refreshes. I then refactored the code in accordance with the Airbnb JavaScript Style Guide.',
+    'I have also implemented the use of Local Storage, so that the best scores are persistent between page refreshes. I then refactored the code in accordance with the Airbnb JavaScript Style Guide using ESLint and formatted using Prettier.',
   ],
 };
 
@@ -33,8 +33,9 @@ const quizzical = {
   image:
     'https://user-images.githubusercontent.com/68748054/210275152-9f86b1f0-60a1-4d54-b31a-d4cf270f4bea.png',
   projectDescription: [
-    "Solo project of the Bob Ziroll's Learn React Scrimba course. Built completely from scratch based on a Figma design.",
-    'I have adjusted the layout to better fit small screens and also have a few more ideas to make it even better. Stay tuned!',
+    'Trivia Quiz made in React, with questions provided by the Open Trivia Database. In addition to using the API it is styled using SASS and coded in accordance with the Airbnb JavaScript Style Guide using ESLint and formatted using Prettier.',
+    'The user has the option to choose the category, difficulty and question type, or just leave it all to chance.',
+    "I tried to replicate a given Figma design as close as I could, but ultimately I've decided to tweak a few colors to improve accessibility (contrast) and implemented a mobile view.",
   ],
 };
 
