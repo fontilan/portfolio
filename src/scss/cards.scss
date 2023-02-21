@@ -24,6 +24,10 @@
     width: 70%;
   }
 
+  p {
+    max-width: 66ch;
+  }
+
   p:nth-child(2) {
     margin-top: 1em;
   }
@@ -37,7 +41,7 @@
   }
 
   hr {
-    margin: 2em 0;
+    margin: 3em 0;
   }
 }
 
